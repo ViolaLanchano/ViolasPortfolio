@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="utf-8" />
+    <title>ויולה עדן לנצ׳אנו</title>
+    <meta name="description" content="תיק עבודות של ויולה עדן לנצ׳אנו" />
+    <meta name="keywords" content="תיק עבודות" />
+    <meta name="author" content="ויולה עדן לנצ׳אנו" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--favicon-->
+    <!--     <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png"> -->
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./Styles/myStyle.css">
+
+    <!-- java script -->
+    <script src="./JavaScript/mainJs.js"></script>
+
+    <!-- AOS library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light m-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./HomePage.html">ויולה עדן לנצ׳אנו</a>
+            <div class="navLinks">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myPortfolio">התוצרים שלי</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">יצירת קשר</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="hamburger pe-4 pt-3">
+            <span class="bar" style="background-color: #363F52;"></span>
+            <span class="bar" style="background-color: #363F52;"></span>
+            <span class="bar" style="background-color: #363F52;"></span>
+        </div>
+    </nav>
+
+
+    <!--     <header id="homePageHeader" class="stickyBackground container p-0">
+        <section id="aboutMe" class="mt-md-5 pt-2">
+            <div class="d-flex align-items-center row mt-md-5 pt-5" data-aos="zoom-in" data-aos-duration="1500"
+                data-aos-delay='300'>
+                <h1 class="mt-2 mb-0 text-center text-md-end">נעים מאוד, אני</h1>
+                <h2 id="myName" class="fw-bold  text-center text-md-end">ויולה עדן לנצ׳אנו</h2>
+                <div id="aboutMeDescription" class="mt-4 mt-md-2 mb-4 mb-md-3">
+                    <p class="text-end">
+                        בעלת תואר
+                        ראשון בטכנולוגיות למידה,
+                        המכון הטכנולוגי חולון,
+                        ואני אוהבת לפתח פתרונות מקצה לקצה.
+                    </p>
+                    <div class="mt-4 mb-2 mb-lg-4">
+                        <a href="./violaResume.pdf" aria-label="קורות חיים" target="_blank">
+                            <button class="primaryBtn" type="button">להורדת קורות חיים</button>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#myPortfolio" class="mb-5">
+                    <img id="arrowHomePage" class="arrowsHomePage mb-5 mb-md-0" src="./Images/HomePage/arrow.svg"
+                        alt="לתוצרים שלי" aria-label="לתוצרים שלי">
+                </a>
+            </div>
+        </section>
+    </header> -->
+
+    <header id="homePageHeader" class="p-0 position-sticky top-0">
+        <section id="aboutMe" class="text-center pt-3">
+            <div class="d-flex align-items-center justify-content-between row">
+                <div id="violaIllustrationCircleDiv" class="col-lg-6 col-12">
+                    <img class="violaIllustration" src="./Images/HomePage/violaIllustrationCircle.svg"
+                        alt="תמונה עיגול ויולה">
+                </div>
+
+                <div id="homePageHeaderRightSide" class="position-relative col-12 col-lg-6 col-xl-4 mt-3 mt-md-0">
+                    <h1 class="mb-0 text-center text-md-end">נעים מאוד, אני</h1>
+                    <h2 id="myName" class="mt-1 text-md-end"><span class="changeFontWeigth">ויולה עדן
+                            לנצ׳אנו.</span></h2>
+                    <div id="aboutMeDescription" class="mt-4 mt-md-2 mb-4 mb-md-3">
+                        <p class="text-md-end">
+                            בעלת תואר
+                            ראשון בטכנולוגיות למידה,
+                            המכון הטכנולוגי חולון,
+                            ואני אוהבת לפתח פתרונות מקצה לקצה.
+                        </p>
+                        <p class="text-md-end">
+
+                        </p>
+                    </div>
+
+                    <div class="mt-5 mt-md-0 mb-2 mb-lg-4">
+                        <a href="./violaResume.pdf" aria-label="קורות חיים" target="_blank">
+                            <button type="button" class="primaryBtn">
+                                <span class="primaryBtnContent">להורדת קורות חיים</span>
+                            </button>
+                        </a>
+                    </div>
+                 <!--    <a href="#myPortfolio">
+                        <img id="arrowHomePage" class="arrowsHomePage mt-5 mb-5 mt-md-0 mb-md-0"
+                            src="./Images/HomePage/arrow.svg" alt="לתוצרים שלי" aria-label="לתוצרים שלי">
+                    </a> -->
+                </div>
+                <div id="violaIllustrationDiv" class="col-12 col-lg-6 col-xl-8">
+                    <img class="violaIllustration position-relative" src="./Images/HomePage/violaIllustration.svg"
+                        alt="תמונה ויולה">
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+    <main class="position-relative">
+        <section id="myPortfolio" class="blackBackground pt-3 pb-5">
+            <h2 class="pt-4 text-white text-center">תוצרים נבחרים</h2>
+
+            <!--   <div class="myPortfolioTitle" class="d-flex gap-1">
+                <div class="myPortfolioTitleScroll primary">
+                    <h2 class="pt-4">תוצרים <span class="selectedWorks">נבחרים    •     </span>תוצרים <span class="selectedWorks">נבחרים    •    </span>תוצרים <span class="selectedWorks">נבחרים    •    </span></h2>
+                </div>
+                <div class="myPortfolioTitleScroll secondary d-flex">
+                    <h2 class="pt-4">תוצרים <span class="selectedWorks">נבחרים    •    </span>תוצרים <span class="selectedWorks">נבחרים    •    </span></h2>
+                </div>
+            </div> -->
+            <div class="d-flex justify-content-center row p-2 pe-4 ps-4">
+                <a href="./ToTheSweetKid.html" class="col-12 col-lg-6 mt-5 text-white" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="800" data-animation-delay="100">
+                    <div id="myPortfolioToTheSweetKid"></div>
+                    <div class="whiteText pe-1">
+                        <p class="text-end mt-3 fw-bold">לילד המתוק!</p>
+                        <p class="text-end">לומדה</p>
+                    </div>
+                </a>
+
+                <a href="./SafralandWebApp.html" class="col-12 col-lg-6 mt-5 text-white" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="800" data-animation-delay="100">
+                    <div id="myPortfolioSafraland"></div>
+                    <div>
+                        <p class="text-end mt-3 fw-bold">ספראלנד</p>
+                        <p class="text-end">אפליקציית Web רספונסיבית</p>
+                    </div>
+                    <!--   <div class="whiteText d-flex align-items-center row pe-1">
+                        <div class="col-8">
+                            <p class="text-end mt-3 fw-bold">ספראלנד</p>
+                            <p class="text-end">אפליקציית Web רספונסיבית</p>
+                        </div>
+                        <div class="d-flex justify-content-end col-4">
+                            <svg width="73" height="73" viewBox="0 0 73 73" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="36.7699" cy="36.8519" r="35.9769" fill="#D9D9D9" />
+                                <path
+                                    d="M49.6058 24.747H28.1914L53.8633 50.4189L50.3366 53.9456L24.6647 28.2737V49.6882H19.6764V19.7588H49.6058V24.747Z"
+                                    fill="#2B2D31" />
+                            </svg>
+                        </div>
+                    </div> -->
+                </a>
+
+                <a href="./TwoChinesse.html" class="col-12 col-lg-6 mt-5 text-white" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="800" data-animation-delay="100">
+                    <div id="myPortfolioTwoChinesse"></div>
+                    <div class="whiteText pe-1">
+                        <p class="text-end mt-3 fw-bold">שניים סינים</p>
+                        <p class="text-end">מחולל</p>
+                    </div>
+                </a>
+
+                <a href="./TheLightRailApp.html" class="col-12 col-lg-6 mt-5 text-white" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="800" data-animation-delay="100">
+                    <div id="myPortfolioTheLightRail"></div>
+                    <div class="whiteText pe-1">
+                        <p class="text-end mt-3 fw-bold">הרכבת הקלה</p>
+                        <p class="text-end">עיצוב ואפיון אפליקציה</p>
+                    </div>
+                </a>
+
+                <a href="./MiniMoocStorytelling.html" class="col-12 col-lg-6 mt-5 text-white" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="800" data-animation-delay="100">
+                    <div id="myPortfolioMiniMoocStorytelling"></div>
+                    <div class="whiteText pe-1">
+                        <p class="text-end mt-3 fw-bold">הסיפור של סטורינלינג</p>
+                        <p class="text-end">מיני-מוק</p>
+                    </div>
+                </a>
+
+                <a href="./DealForYouApp.html" class="col-12 col-lg-6 mt-5 text-white" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="800" data-animation-delay="100">
+                    <div id="myPortfolioDealForYou"></div>
+                    <div class="whiteText pe-1">
+                        <p class="text-end mt-3 fw-bold">Deal for you</p>
+                        <p class="text-end">עיצוב ואפיון אפליקציה</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+
+        <section id="moreWorks" class="blackBackground pt-5 pb-5">
+            <!--   <h2 class="pt-4 text-center text-white">תוצרים נוספים</h2>
+
+            <div class="myPortfolioTitle" class="d-flex gap-1">
+             <div class="myPortfolioTitleScroll primary">
+                    <h2 class="pt-4">תוצרים <span class="selectedWorks">נוספים • </span>תוצרים <span
+                            class="selectedWorks">נוספים • </span>תוצרים <span class="selectedWorks">נוספים • </span>
+                    </h2>
+                </div>
+                <div class="myPortfolioTitleScroll secondary d-flex">
+                    <h2 class="pt-4">תוצרים <span class="selectedWorks">נוספים • </span>תוצרים <span
+                            class="selectedWorks">נוספים • </span></h2>
+                </div> 
+            </div>-->
+
+            <div class="mt-5">
+                <div class="d-flex justify-content-center row">
+                    <div class="col-12 col-md-4">
+                        <h2 class="text-center text-white">תוצרים נוספים</h2>
+                    </div>
+                    <div class="col-12 col-md-8 mt-5 mt-md-0">
+                        <div class="moreWorksLineDiv d-flex justify-content-between border-bottom">
+                            <div>
+                                <a href="./Videos.html">
+                                    <img class="moreWorksIcon" src="./Images/HomePage/videosIcon.svg" alt="סרטונים">
+                                    <span class="me-2">סרטונים</span>
+                                </a>
+                            </div>
+                            <div class="d-flex align-items-end pb-2">
+                                <a href="./Videos.html">
+                                    <svg class="circleArrow" width="65" height="65" viewBox="0 0 65 65" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="32.9482" cy="32.04" r="31.999" />
+                                        <path
+                                            d="M42.4577 22.2928L26.5854 22.2928L45.6133 42.9636L42.9993 45.8033L23.9714 25.1325L23.9714 42.3752L20.2742 42.3752L20.2742 18.2764L42.4577 18.2764L42.4577 22.2928Z"
+                                            fill="#EBD1FF" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="moreWorksLineDiv d-flex justify-content-between border-bottom pt-3">
+                            <div>
+                                <a href="./Drawings.html">
+                                    <img class="moreWorksIcon" src="./Images/HomePage/drawingsIcon.svg" alt="איורים">
+                                    <span class="me-2">איורים</span>
+                                </a>
+                            </div>
+                            <div class="d-flex align-items-end pb-2">
+                                <a href="./Drawings.html">
+                                    <svg class="circleArrow" width="65" height="65" viewBox="0 0 65 65" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="32.9482" cy="32.04" r="31.999" />
+                                        <path
+                                            d="M42.4577 22.2928L26.5854 22.2928L45.6133 42.9636L42.9993 45.8033L23.9714 25.1325L23.9714 42.3752L20.2742 42.3752L20.2742 18.2764L42.4577 18.2764L42.4577 22.2928Z"
+                                            fill="#EBD1FF" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="moreWorksLineDiv d-flex justify-content-between border-bottom pt-3">
+                            <div>
+                                <a href="./DigitalArt.html">
+                                    <img class="moreWorksIcon" src="./Images/HomePage/digitalArtIcon.svg"
+                                        alt="איורים דיגיטליים">
+                                    <span class="me-2">איורים דיגיטליים</span>
+                                </a>
+                            </div>
+                            <div class="d-flex align-items-end pb-2">
+                                <a href="./DigitalArt.html">
+                                    <svg class="circleArrow" width="65" height="65" viewBox="0 0 65 65" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="32.9482" cy="32.04" r="31.999" />
+                                        <path
+                                            d="M42.4577 22.2928L26.5854 22.2928L45.6133 42.9636L42.9993 45.8033L23.9714 25.1325L23.9714 42.3752L20.2742 42.3752L20.2742 18.2764L42.4577 18.2764L42.4577 22.2928Z"
+                                            fill="#EBD1FF" />
+                                    </svg> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="pb-5 mt-5 position-sticky bottom-0">
+            <div class="container">
+                <h2 class="p-0 text-center">יצירת קשר</h2>
+                <!-- <img src="./Images/HomePage/contactArrow.svg" alt="" style="width: 3rem;"> -->
+
+                <!-- 
+                <div class="contactIcons d-flex row mt-3">
+                    <div class="darkGrayBackground d-flex align-items-center gap-4 p-2">
+                        <div class="p-2">
+                            <img src="./Images/HomePage/mailIcon.svg" alt="אימייל">
+                        </div>
+                        <div>
+                            <p class="fw-bold text-end">אימייל</p>
+                            <a href="mailto:vviola2@gmail.com">vviola2@gmail.com</a>
+                        </div>
+
+                    </div>
+                </div> -->
+            </div>
+            </div>
+            <!-- <div class="d-flex justify-content-center col-6 mt-3">
+                    <div class="contactIcons d-flex row mt-3">
+                        <div class="darkGrayBackground d-flex align-items-center gap-4 p-2">
+                            <div class="p-2">
+                                <img src="./Images/HomePage/mailIcon.svg" alt="אימייל">
+                            </div>
+                            <div>
+                                <p class="fw-bold text-end">אימייל</p>
+                                <a href="mailto:vviola2@gmail.com" class="text-white">vviola2@gmail.com</a>
+                            </div>
+
+                        </div>
+                        <div class="darkGrayBackground d-flex align-items-center gap-4 mt-3 p-2">
+                            <div class="p-2">
+                                <img src="./Images/HomePage/phoneIcon.svg" alt="פלאפון">
+                            </div>
+                            <div>
+                                <p class="fw-bold text-end">פלאפון</p>
+                                <p class="whiteText">054-6555267</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+        </section>
+    </main>
+
+    <footer>
+        <p class="pb-2 pe-3">©2023 כל הזכויות שמורות. נוצר ע״ ויולה עדן לנצ׳אנו.</p>
+    </footer>
+</body>
+
+</html>

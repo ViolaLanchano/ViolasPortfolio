@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2"
+    xmlns="http://www.w3.org/2000/svg" width="736" height="395.46"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 736 395.46">
+    <defs>
+        <clipPath id="clippath">
+            <path d="m736,385.65c0,5.42-164.76,9.81-367.99,9.81S0,391.07,0,385.65s164.76-9.81,368.01-9.81,367.99,4.39,367.99,9.81h0Z" fill="none"/>
+        </clipPath>
+        <clipPath id="clippath-1">
+            <rect x=".12" width="735.88" height="395.46" clip-path="url(#clippath)" fill="none"/>
+        </clipPath>
+        <clipPath id="clippath-3">
+            <polygon points="586.67 358.2 155.98 358.2 155.98 370.92 586.67 370.92 586.67 358.2 586.67 358.2" fill="none"/>
+        </clipPath>
+        <clipPath id="clippath-4">
+            <rect x="155.98" y="358.2" width="430.69" height="12.72" fill="none"/>
+        </clipPath>
+        <clipPath id="clippath-5">
+            <path d="m711.72,379.14c0,7.12-17.99,7.74-27.55,7.74H61.02c-9.56,0-27.55-.62-27.55-7.74h678.24Z" fill="none"/>
+        </clipPath>
+        <clipPath id="clippath-6">
+            <rect x="33.47" y="379.14" width="678.24" height="7.74" fill="none"/>
+        </clipPath>
+        <clipPath id="clippath-7">
+            <polygon points="371.32 378.4 33.47 378.4 33.47 366.53 371.32 366.53 371.32 378.4 371.32 378.4" fill="none"/>
+        </clipPath>
+        <clipPath id="clippath-8">
+            <rect x="33.47" y="366.53" width="337.84" height="11.87" fill="none"/>
+        </clipPath>
+        <clipPath id="clippath-9">
+            <polygon points="371.32 366.53 711.72 366.53 711.72 378.4 371.32 378.4 371.32 366.53 371.32 366.53" fill="none"/>
+        </clipPath>
+        <clipPath id="clippath-10">
+            <rect x="371.32" y="366.53" width="340.4" height="11.87" fill="none"/>
+        </clipPath>
+        <clipPath id="clippath-11">
+            <polygon points="371.32 379.14 33.47 379.14 33.47 377.94 371.32 377.94 371.32 379.14 371.32 379.14" fill="none"/>
+        </clipPath>
+        <clipPath id="clippath-12">
+            <rect x="33.47" y="377.94" width="337.84" height="1.2" fill="none"/>
+        </clipPath>
+        <clipPath id="clippath-13">
+            <polygon points="371.32 377.94 711.72 377.94 711.72 379.14 371.32 379.14 371.32 377.94 371.32 377.94" fill="none"/>
+        </clipPath>
+        <clipPath id="clippath-14">
+            <rect x="371.32" y="377.94" width="340.4" height="1.2" fill="none"/>
+        </clipPath>
+        <clipPath id="clippath-15">
+            <path d="m371.32,366.53h-42.18c1.98,3.54,5.77,5.94,10.11,5.94h68.81c4.35,0,8.13-2.39,10.11-5.94h-46.85Z" fill="none"/>
+        </clipPath>
+        <clipPath id="clippath-16">
+            <rect x="329.14" y="366.53" width="89.03" height="5.94" fill="none"/>
+        </clipPath>
+    </defs>
+    <g id="Layer_4">
+        <path d="m120.18,377.79c-10.18,0-18.46-8.28-18.46-18.46V18.46c0-10.18,8.28-18.46,18.46-18.46h509.07c10.18,0,18.46,8.28,18.46,18.46v340.87c0,10.18-8.28,18.46-18.46,18.46H120.18Z" fill="#dedede"/>
+        <path d="m646.01,359.33c0,9.26-7.51,16.76-16.76,16.76H120.18c-9.26,0-16.76-7.51-16.76-16.76V18.46c0-9.26,7.5-16.76,16.76-16.76h509.07c9.26,0,16.76,7.5,16.76,16.76v340.87h0Z" fill="#1d1f24"/>
+        <g clip-path="url(#clippath-3)">
+            <g clip-path="url(#clippath-4)">
+                <image width="904" height="31" transform="translate(155.17 372.19) scale(.48 -.48)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA4kAAAAfCAYAAABK+YiWAAAACXBIWXMAABcRAAAXEQHKJvM/AAABDElEQVR4nO3dQWrDMBAFUE2ZywSy6f0PkU2hh6mlCTjKbHqBgN87gf3x5vNlFFVVAwAAgMuLiMjb/fvyQQAAAFzR78/j31t/+RIAAAB4UxIBAABoSiIAAABNSQQAAKApiQAAADQlEQAAgKYkAgAA0NJd+gAAALxZEgEAAGgZsgAAAGDL5bgpAAAAm38SAQAAaDmURAAAADZLIgAAAE1JBAAAoCmJAAAAtFxrSQMAAICTKzAAAABoWZZEAAAAtlxrygIAAIBTzqkkAgAA8JJLSQQAAGCzJAIAANByzkMaAAAAnPI4/iQBAADAKedhSQQAAODFkggAAECLqipxAAAAEBHxAY8BAADARxhjPAFz4T/wzU5oyQAAAABJRU5ErkJggg=="/>
+            </g>
+        </g>
+        <path d="m646.01,342.38c0,9.26-7.51,16.76-16.76,16.76H120.18c-9.26,0-16.76-7.51-16.76-16.76V18.46c0-9.26,7.5-16.76,16.76-16.76h509.07c9.26,0,16.76,7.5,16.76,16.76v323.92h0Z" fill="#3b3b3b"/>
+        <path d="m120.18,357.44c-8.31,0-15.07-6.76-15.07-15.07V18.46c0-8.31,6.76-15.07,15.07-15.07h509.07c8.31,0,15.07,6.76,15.07,15.07v323.92c0,8.31-6.76,15.07-15.07,15.07H120.18Z" fill="#000004"/>
+        <g clip-path="url(#clippath-5)">
+            <g clip-path="url(#clippath-6)">
+                <image width="1420" height="20" transform="translate(32.95 388.03) scale(.48 -.48)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABY0AAAAUCAYAAADBYBJsAAAACXBIWXMAABcRAAAXEQHKJvM/AAAA+0lEQVR4nO3YwWnEMBCGUU8YZFl2MQnpv4Sw6SV7NQrMkr2kgQW/V4H0Mac/5pxzAQAAAADg8iIi8v3j8/IhAAAAAACu6Pv29e/Xby4BAAAAAIA/2VoTAwAAAACAksdxKAEAAAAAQMl935UAAAAAAKDkGEZjAAAAAAAecowhBQAAAAAAxWgMAAAAAMBTbtumBgAAAAAAxWgMAAAAAMBT9m40BgAAAADgIXtfpQAAAAAAoOS6diUAAAAAACjZWlMCAAAAAICSmakEAAAAAAAlz/NUAgAAAACAkvf7jxIAAAAAAJSYc04pAAAAAACIiHiBZwAAAAAA8BKWZfkFQukSYxcZVYoAAAAASUVORK5CYII="/>
+            </g>
+        </g>
+        <g clip-path="url(#clippath-7)">
+            <g clip-path="url(#clippath-8)">
+                <image width="708" height="29" transform="translate(32.76 379.67) scale(.48 -.48)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsQAAAAeCAYAAAArbwjjAAAACXBIWXMAABcRAAAXEQHKJvM/AAABUElEQVR4nO3Y20rDUBAF0HNE+pYSv1fBDzfhSK8mbYopVUH2WpBOMrl28rJJba21AgAAgWqt9cmLBwAg2fPr23vpuq70fV9e+n5fd8t2e+htNpsyDMNhGcdD/Rgmvcn6bBmve+O8t/s4XWvdj//+uv9dX48nzetxz4/UyfXvea7F+v08Tve66l/0Ts/1v2f8yGyXnulGXTj35vwv1pe2z//hojeZ1qz3tXl735r9jx6/1m9dFwD+wrbrznfxhRgAgGgCMQAA0QRiAACiCcQAAEQTiAEAiCYQAwAQTSAGACCaQAwAQDSBGACAaAIxAADRBGIAAKIJxAAARBOIAQCIJhADABBNIAYAIJpADABANIEYAIBoAjEAANEEYgAAognEAABEE4gBAIgmEAMAEE0gBgAgmkAMAEA0gRgAgGi1tdbShwAAQKZaa/XqAQDIVUr5BA5aUDvKF6ybAAAAAElFTkSuQmCC"/>
+            </g>
+        </g>
+        <g clip-path="url(#clippath-9)">
+            <g clip-path="url(#clippath-10)">
+                <image width="716" height="29" transform="translate(369.91 379.67) scale(.48 -.48)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAs0AAAAeCAYAAADXeiMpAAAACXBIWXMAABcRAAAXEQHKJvM/AAABmklEQVR4nO3Z0W7aMBQG4GOaNhWie/+n6d5pdnPraWQtGNKcVZq2m++Tgo1tnOSQi19Qeu89AACATaWUclAaAADYN73P/qhVqQD47/7GH6DrFvk+e+u25v5k7Pr9fX+d21qzNb/Vvtdnbe/Hbvt79fzq3O3Y3b2PNzre5/jyeZ2u9tivZR/2HPqfjv0e7Zf2et393FVtb+Yu7XpB/6IdvvvNa7m0W2uG5+m85/bYsH4499efwew5u1VK+Rj51b8+DofDxzE9PMQ0Tefj8ekx5qc5np/nmOc5jsdjnE6n+Pbycj53rTVaa9FqjdpaLMtbtNqitnV8eVvWfm3RWo1lWc6fef3+OlydX5oBACAhNAMAQEJoBgCAhNAMAAAJoRkAABJCMwAAJIRmAABICM0AAJAQmgEAICE0AwBAQmgGAICE0AwAAAmhGQAAEkIzAAAkhGYAAEgIzQAAkBCaAQAgITQDAEBCaAYAgITQDAAACaEZAAASQjMAACSEZgAASAjNAACQEJoBACBReu9dkQAAYFsppSgNAADsiYifq7dNSiRBG3oAAAAASUVORK5CYII="/>
+            </g>
+        </g>
+        <g clip-path="url(#clippath-11)">
+            <g clip-path="url(#clippath-12)">
+                <image width="708" height="7" transform="translate(32.76 380.43) scale(.48 -.48)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsQAAAAHCAYAAAAPtluwAAAACXBIWXMAABcRAAAXEQHKJvM/AAAA0ElEQVR4nO3cTYuDMBAA0ExZvFmyv3cX+sOruFQraJu2uh+HJe9BnDAmMUwu4sEYhmFIAABQoYiIg4MHAKBmbx+fp9S2bco5p/ecx3hpx+OUa5omdV03tb6f4rlb5Bb9Vevvc/06d/k4HRFj+ffH8bo9Xiet4/XOr8TF+nv2VYyv6zE/6y5/k5v39b9r/JPalvb0IBbmPqtROTfP31PD7/UXR1tYY2/u2fgHI7cOfL3S5mcCwF/whRgAgKp5IQYAoGpeiAEAqJq/TAAAUK2IiC/HTVAPeJ+2/gAAAABJRU5ErkJggg=="/>
+            </g>
+        </g>
+        <g clip-path="url(#clippath-13)">
+            <g clip-path="url(#clippath-14)">
+                <image width="716" height="7" transform="translate(369.91 380.43) scale(.48 -.48)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAs0AAAAHCAYAAADzo3B6AAAACXBIWXMAABcRAAAXEQHKJvM/AAABG0lEQVR4nO3c4W6DIBDA8TtrS2Ps3v9puofiykdZopsIitYsy778fwkFDxB62sS0STXGGAUAAADAJlXVhtQAAAAA+1ryAwD4D7/9oXOavn+O2hpbc8tYTMFV/1Y7hWIR26jjd+9cF7FxTpz2XxzHn+M3yzAMp/NT6ytjp3KWv9TzuTjHqZxX87+MlXnPx6370nsu+1JducZ/UM97ibW9pHprTFzmYr6n1rFsfLZ2uv9kJ5b3n/usq2rWXpamaebSXi7Stu1YrreruJuT+92Jc066rpO+7+Xj8RjX9t6LmYl5L95MQniJeRNvUzy8wtT2JmZeQgjjnOfnM9sb3zQDAAAAB3hoBgAAAA7w0AwAAAAc4N8zAAAAgB2qql+CfG8e1n0y9QAAAABJRU5ErkJggg=="/>
+            </g>
+        </g>
+        <g clip-path="url(#clippath-15)">
+            <g clip-path="url(#clippath-16)">
+                <image width="192" height="17" transform="translate(327.74 373.8) scale(.48 -.48)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMEAAAASCAYAAADi6LodAAAACXBIWXMAABcRAAAXEQHKJvM/AAAA3klEQVRoge3bywrCMBSE4XOa1MdV8EEEfdzeImltTdOCe+f/YDiJWcUy6EI9pZQMEOTunm/d8PChLub7X2/37W1o23bO5bLMGNcZqwQLIVoIoUpjTbPO8+QCrtM9v+af9Xlsae1uXU6zfPZ9kl5uTva1X+f/6teXgPq83K/rZaRipu38m3o/betpmg6zzDjmOX7W47xfZs4wz2HIGXbp+/6Qruvs9Xwc7sknAeRRAsijBJBHCSCPEkAeJYA8SgB5lADyKAHkUQLIowSQRwkgjxJAHv8ngCxX/fkwsGNmbzrbkSM+dkPrAAAAAElFTkSuQmCC"/>
+            </g>
+        </g>
+        <polygon points="630.75 342.51 117.83 342.51 117.83 17.76 630.75 17.76 630.75 342.51 630.75 342.51" fill="#fff"/>
+    </g>
+</svg>
