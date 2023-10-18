@@ -2,13 +2,13 @@
 @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
 
 @font-face {
-  font-family: OS Luizi Round_FFC;
-  src: url('../fonts/font-family: OS Luizi Round_FFC.otf') format("opentype");
+  font-family: "OS Luizi Round_FFC", sans-serif;
+  src: local("OS Luizi Round_FFC"), url('../fonts/OS Luizi Round_FFC.otf') format("opentype");
 }
 
 @font-face {
-  font-family: Optima;
-  src: url('fonts/font-family: OS Luizi Round_FFC.ttc') format("opentype");
+  font-family: "HorevCLM-Heavy";
+  src: url('../fonts/HorevCLM-Heavy.otf') format("opentype");
 }
 
 * {
@@ -54,7 +54,7 @@ h1 {
   font-weight: 700;
   text-align: right;
   letter-spacing: 0.35625rem;
-  font-family: 'Noto Sans Hebrew', sans-serif;
+  font-family: "HorevCLM-Heavy";
 }
 
 h2 {
@@ -62,8 +62,8 @@ h2 {
   text-align: center;
   letter-spacing: 0.12rem;
   font-weight: 400;
-  font-family: OS Luizi Round_FFC;
-
+  font-family: "HorevCLM-Heavy";
+  margin-bottom: 0;
 }
 
 h3 {
@@ -250,7 +250,7 @@ footer p {
   right: 0;
   width: 32%;
   margin: 0 auto;
-/*   margin-bottom: 13% */
+  /*   margin-bottom: 13% */
 }
 
 .closeBtn img {
@@ -440,6 +440,7 @@ footer p {
 #aboutMe h1 {
   font-weight: 300;
   letter-spacing: 0.12rem;
+  font-family: 'Open Sans Hebrew', serif;
 }
 
 #aboutMe .row {
@@ -622,11 +623,9 @@ button.primaryBtn:active {
 #myPortfolio h2,
 #moreWorks h2,
 #contact h2 {
-  /*   font-family: Open Sans Hebrew; */
-  font-size: 5rem;
+  font-size: 7rem;
   font-style: normal;
   line-height: 4rem;
-  letter-spacing: 0.34069rem;
 }
 
 
@@ -999,16 +998,12 @@ button.primaryBtn:active {
 }
 
 .pages h1 {
-  /*  font-family: OS Luizi Round_FFC; */
-  font-family: 'Open Sans Hebrew', serif;
-  /*  font-family: 'Open Sans', sans-serif; */
   font-weight: 300;
-  font-size: 10vw;
+  font-size: 15vw;
   letter-spacing: 0rem;
   overflow: hidden;
   color: rgba(0, 0, 0, 0.70);
 }
-
 
 .prototypeAppLInk .hover-underline-animation:after {
   right: 0rem;
@@ -1094,7 +1089,7 @@ h1 span {
 }
 
 #safralandVideos p {
-font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 #h2Link {
