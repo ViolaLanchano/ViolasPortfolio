@@ -60,11 +60,11 @@
         </div>
     </nav>
 
-    <header class="container-fluid blackBackground pt-md-0 pb-0 p-5">
+    <header class="container-fluid blackBackground pt-md-0 pb-0 p-5 position-sticky top-0">
         <section class="pages container text-center">
             <div>
-                <h1 class="pt-2 text-white text-end" style="font-size: 9vw"><span>הסיפור של סטוריטלינג</span></h1>
-                <p class="text-end text-white mt-3" data-aos="fade-up" data-aos-duration="1500" data-aos-delay='500'
+                <h1 class="pt-2 text-white text-end" style="font-size: 14vw;"><span>הסיפור של סטוריטלינג</span></h1>
+                <p class="text-end text-white" data-aos="fade-up" data-aos-duration="1500" data-aos-delay='500'
                     data-aos-anchor-placement="top-center">
                     הכירו את המיני-קורס בנושא <span class="fw-bold">סטוריטלינג.</span>
                     הקורס המיועד לאנשי שיווק ג׳וניור ומלווה את לומדיו שלב אחר שלב ביצירת סטרוטלינג שיווקי.
@@ -73,15 +73,13 @@
                 </p>
             </div>
         </section>
+        <div class="p-5 pt-3 d-flex justify-content-center container-fluid stickyBackground blackBackground">
+            <img src="./Images/MiniMoocStorytelling/miniMoocStorytelling.png" alt="">
+        </div>
     </header>
 
 
-    <div class="p-5 pt-3 d-flex justify-content-center container-fluid stickyBackground blackBackground">
-        <img src="./Images/MiniMoocStorytelling/miniMoocStorytelling.png" alt="">
-    </div>
-
-
-    <main class="mt-4 pt-4 pb-2 position-relative">
+    <main class="pt-4 pb-2 position-relative">
         <div id="programsIcons" class="d-flex justify-content-center grayBackground gap-3 mt-4 p-2"
             style="width: 10rem;">
             <img src="./Images/ProgramsLogos/adobeIllustratorLogo.svg" alt="אילוסטרייטור">
@@ -141,7 +139,7 @@
                             aria-label="מסמך פיצוח - תמונה 1">
                     </div>
 
-                
+
 
                     <div class="col-12 col-md-6 mt-3" data-bs-toggle="modal" data-bs-target="#miniMockDocument"
                         data-aos="zoom-out-right" data-aos-duration="800" data-animation-delay="300"
@@ -157,7 +155,7 @@
                     </div>
                 </div>
             </div>
-        <!--     <div class="content">
+            <!--     <div class="content">
                 <div class="content-overlay"></div>
                 <img class="content-image" src="https://source.unsplash.com/HkTMcmlMOUQ" alt="">
                 <div class="content-details fadeIn-bottom">
@@ -166,9 +164,10 @@
                 </div>
             </div> -->
 
+
             <!-- פופ-אפ קרוסלת תמונות מסמך פיצוח -->
-            <div class="modal fade" id="miniMockDocument" aria-labelledby="miniMockDocumentLabel" aria-hidden="true"
-                data-bs-backdrop="static">
+            <div class="modal fade" id="miniMockDocument" aria-labelledby="miniMockDocumenttLabel" aria-hidden="true"
+                data-bs-backdrop="static" data-touch="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -182,7 +181,7 @@
                             <div id="miniMockDocumentCarousel" class="carousel slide col-12" data-bs-ride="carousel"
                                 data-bs-interval="false" data-bs-touch="true">
                                 <div class="carousel-inner">
-                                    <div id="slide1" class="carousel-item" class="item">
+                                    <div id="slide1" class="carousel-item">
                                         <img src="./Images/MiniMoocStorytelling/miniMockDocument_img1.png"
                                             class="d-block w-100" alt="מסמך פיצוח - תמונה 1">
                                     </div>
@@ -195,16 +194,18 @@
                                             class="d-block w-100" alt="מסמך פיצוח - תמונה 3">
                                     </div>
 
-                                    <button class="carousel-control-prev" type="button"
-                                        data-bs-target="#miniMockDocumentCarousel" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
                                     <button class="carousel-control-next" type="button"
-                                        data-bs-target="#miniMockDocumentCarousel" data-bs-slide="prev">
+                                        data-bs-target="#digitalArtCarousel" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
+
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#digitalArtCarousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+
                                 </div>
                             </div>
                         </div>
@@ -218,7 +219,7 @@
                 data-aos-anchor-placement="top-center">
                 <h2>פלטת צבעים</h2>
                 <div class="titleDivider"></div>
-                <p class="mt-4">בחרנו בפלטת צבעים המבוססת על צבעי פסטל.</p>
+                <p class="mt-4 text-center">בחרנו בפלטת צבעים המבוססת על צבעי פסטל.</p>
             </div>
 
             <div id="colorPallate" class="d-flex justify-content-evenly mt-4 row">
@@ -338,7 +339,7 @@
 
                 <!-- פופ-אפ קרוסלת תמונות ג׳נאילי -->
                 <div class="modal fade" id="miniMockGenially" aria-labelledby="miniMockDocumentLabel" aria-hidden="true"
-                    data-bs-backdrop="static">
+                    data-bs-backdrop="static" data-touch="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -383,16 +384,17 @@
                                                 aria-label="תמונה של שילוב ג׳ניאלי 6">
                                         </div>
 
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#miniMockGeniallyCarousel" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+
                                         <button class="carousel-control-prev" type="button"
                                             data-bs-target="#miniMockGeniallyCarousel" data-bs-slide="next">
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                             <span class="visually-hidden">Previous</span>
                                         </button>
-                                        <butto class="carousel-control-next" type="button"
-                                            data-bs-target="#miniMockGeniallyCarousel" data-bs-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Next</span>
-                                            </button>
                                     </div>
                                 </div>
                             </div>

@@ -23,9 +23,10 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  /*   overflow-x: hidden; 
-  overflow-y: auto !important; */
-  /*  height: 100%; */
+  text-align: right;
+  overflow-x: clip;
+/*   overflow-y: auto !important; */
+  min-height: 100vh;
   scroll-behavior: smooth;
 }
 
@@ -37,7 +38,7 @@ body {
   /*   color: white; */
   color: #353535;
   background-color: #f8f7f7;
-  text-align: right;
+
 }
 
 :root {
@@ -49,8 +50,12 @@ header {
   padding: 7vw;
 }
 
+.container {
+  z-index:1041;
+}
+
 h1 {
-  font-size: 3.75rem;
+  font-size: 2.75rem;
   font-weight: 700;
   text-align: right;
   letter-spacing: 0.35625rem;
@@ -385,7 +390,7 @@ footer p {
   position: fixed;
   right: -100%;
   flex-direction: column;
-  background-color: #363F52;
+  background-color: #1F1F1F;
   width: 100%;
   border-radius: 10px;
   padding-right: 2rem;
@@ -572,18 +577,18 @@ button.primaryBtn {
   text-align: center;
   letter-spacing: 1px;
   text-decoration: none;
-  color: #725AC1;
+  color: #333334;
   background: transparent;
   cursor: pointer;
   transition: ease-out 0.5s;
-  border: 2px solid #725AC1;
-  border-radius: 10px;
-  box-shadow: inset 0 0 0 0 #725AC1;
+  border: 1px solid #333334;
+  border-radius: 5rem;
+  box-shadow: inset 0 0 0 0 #333334;
 }
 
 button.primaryBtn:hover {
   color: white;
-  box-shadow: inset 0 -100px 0 0 #725AC1;
+  box-shadow: inset 0 -100px 0 0 #333334;
 }
 
 button.primaryBtn:active {
@@ -625,7 +630,6 @@ button.primaryBtn:active {
 #contact h2 {
   font-size: 7rem;
   font-style: normal;
-  line-height: 4rem;
 }
 
 
@@ -910,7 +914,6 @@ button.primaryBtn:active {
   /*   background-color: #f8f7f7; */
   position: relative;
   z-index: 2;
-  height: 60vh;
 }
 
 
@@ -987,7 +990,7 @@ button.primaryBtn:active {
 
 .titleDividerH1 {
   width: 2.7rem;
-  border: 0.7px solid #3d3a4e;
+  border: 1px solid #3d3a4e;
   margin: 0 auto;
 }
 
@@ -1003,6 +1006,7 @@ button.primaryBtn:active {
   letter-spacing: 0rem;
   overflow: hidden;
   color: rgba(0, 0, 0, 0.70);
+  margin-bottom: 0;
 }
 
 .prototypeAppLInk .hover-underline-animation:after {
@@ -1050,7 +1054,7 @@ h1 span {
   animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
-/* @keyframes reveal {
+@keyframes reveal {
   0% {
     display: none;
     opacity: 0;
@@ -1062,7 +1066,7 @@ h1 span {
     opacity: 1;
     transform: translate(0, 0);
   }
-} */
+}
 
 
 .leftImgEntry {
@@ -1564,26 +1568,9 @@ h1 span {
     font-size: 1.6rem;
   }
 
-  #homePageHeaderRightSide {
-    transform: translate(-6vw, -1vw);
-  }
 
   #arrowHomePage {
     width: 1.5rem;
-  }
-
-  .violaIllustration {
-    width: 130%;
-    margin: 0;
-    transform: translate(3.3rem, 0.4rem);
-  }
-
-  #violaIllustrationCircleDiv {
-    display: none;
-  }
-
-  #violaIllustrationDiv {
-    display: block;
   }
 
   #myName {
@@ -1594,7 +1581,6 @@ h1 span {
 
   #myName span {
     font-size: 2rem;
-    font-weight: 700;
   }
 
   /* #myNameLine {
@@ -1706,6 +1692,24 @@ h1 span {
     margin: 0 auto;
   }
 
+  #violaIllustrationCircleDiv {
+    display: none;
+  }
+
+  #violaIllustrationDiv {
+    display: block;
+  }
+
+  .violaIllustration {
+    width: 130%;
+    margin: 0;
+    transform: translate(3.3rem, 2.4rem);
+  }
+
+  #homePageHeaderRightSide {
+    transform: translate(-6vw, -1vw);
+  }
+
   #aboutMe h1,
   #myName {
     font-size: 2rem;
@@ -1731,7 +1735,6 @@ h1 span {
 
   .primaryBtn {
     font-size: 1.2rem;
-    height: 4rem;
   }
 
 
@@ -1767,7 +1770,7 @@ h1 span {
 
   .violaIllustration {
     width: 100%;
-    transform: translate(-1.7rem, 0.4rem);
+    transform: translate(-1.7rem, 2.4rem);
   }
 
   #myPortfolioTwoChinesse,
