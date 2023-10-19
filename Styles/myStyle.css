@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "HorevCLM-Heavy";
-  src: url('../fonts/HorevCLMHeavy.otf') format("opentype");
+  src: url('../Fonts/HorevCLMHeavy.otf') format("opentype");
 }
 
 * {
@@ -38,7 +38,6 @@ body {
   /*   color: white; */
   color: #353535;
   background-color: #f8f7f7;
-
 }
 
 :root {
