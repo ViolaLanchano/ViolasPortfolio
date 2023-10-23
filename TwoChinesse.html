@@ -54,41 +54,34 @@
         </div>
     </nav>
 
-    <header class="container-fluid blackBackground pt-md-0 pb-0 p-5 position-sticky top-0">
+    <header class="container-fluid blackBackground pt-md-0 pb-0 p-5">
         <section class="pages container text-center">
             <div>
-                <h1 class="pt-2 text-white text-end"><span>שניים סינים</span></h1>
-                <p class="text-end text-white" data-aos="fade-up" data-aos-duration="1500" data-aos-delay='500'
-                    data-aos-anchor-placement="top-center">
+                <h1 class="pt-4 text-white text-end"><span>שניים סינים</span></h1>
+                <p class="revealTextAnimation text-end text-white">
                     סביבה מקוונת המשמשת ללימוד והעברת תוכן לימודי בצורה חוויותית לכלל משתמשיה.
                     הסביבה מחולקת לשני צדדים: צד שחקן וצד עורך.
                 </p>
+
+                <div id="programsIcons" class="revealTextAnimation d-flex gap-2 text-white mt-3">
+                    <p>Adobe Illustrator</p>
+                    <p>Adobe Xd</p>
+                    <p>Adobe Animate</p>
+                    <p>Visual Studio</p>
+                    <p>Visual Studio Code</p>
+                    <p>Valentina Studio</p>
+                </div>
             </div>
         </section>
-
-        <!--    <section class="mt-4">
-            <div id="programsIcons" class="d-flex justify-content-center grayBackground gap-3 p-2"
-                style="width: 20rem;">
-                <img src="./Images/ProgramsLogos/adobeIllustratorLogo.svg" alt="אילוסטרייטור">
-                <img src="./Images/ProgramsLogos/adobeXDLogo.svg" alt="אדובי xd">
-                <img src="./Images/ProgramsLogos/adobeAnimateLogo.svg" alt="אנימייט xd">
-                <img src="./Images/ProgramsLogos/visualStudioLogo.svg" alt="visual studio">
-                <img src="./Images/ProgramsLogos/visualStudioCodeLogo.svg" alt="visual studio code">
-                <img src="./Images/ProgramsLogos/valentinaStudioLogo.svg" alt="valentina studio">
-            </div>
-        </section> -->
-        <div class="p-5 pt-3 container-fluid stickyBackground blackBackground">
-            <img src="./Images/TwoChinesse/twoChinesse.png" alt="">
-        </div>
     </header>
 
 
-
-
-
+    <div class="p-5 pt-3 container-fluid blackBackground position-sticky top-0">
+        <img src="./Images/TwoChinesse/twoChinesse.png" alt="">
+    </div>
 
     <main class="mt-4 pt-4 position-relative">
-        <section class="pt-5 pb-5">
+        <section class="pt-5 pb-5 m-4 lightBackground">
             <div class="container grayBackground mt-3 pt-4 pb-4">
                 <h2>המטרה</h2>
                 <div class="titleDivider"></div>
@@ -143,62 +136,15 @@
         </section>
 
 
-        <section class="mt-4 pb-3 container">
-            <h2>עץ מבנה (צד שחקן)</h2>
-            <div class="titleDivider"></div>
+        <section class="mt-4 pb-3 container" data-aos="fade-up" data-aos-duration="1500" data-aos-delay='400'
+            data-aos-anchor-placement="top-center">
+            <div>
+                <h2>עץ מבנה (צד שחקן)</h2>
+                <div class="titleDivider"></div>
 
-            <div class="d-flex justify-content-center  mt-4" data-bs-toggle="modal" data-bs-target="#personas"
-                onclick="activeImg('slide1')">
-                <img src="./Images/TwoChinesse/StructureTreeTwoChinesse.png" alt="עץ מבנה" aria-label="עץ מבנה">
-            </div>
-
-
-            <!-- פופ-אפ קרוסלת תמונות פרסונות -->
-            <div class="modal fade" id="personas" aria-labelledby="miniMockDocumentLabel" aria-hidden="true"
-                data-bs-backdrop="static">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="closeBtn position-absolute" data-bs-dismiss="modal"
-                                aria-label="סגור חלון פופ-אפ">
-                                <img src="./Images/closeBtn.svg" alt="סגור חלון פופ-אפ">
-                            </button>
-                        </div>
-                        <div class="modal-body p-1">
-                            <!-- קרוסלה -->
-                            <div id="personasCarousel" class="carousel slide col-12" data-bs-ride="carousel"
-                                data-bs-interval="false" data-bs-touch="true">
-                                <div class="carousel-inner">
-                                    <div id="slide1" class="carousel-item">
-                                        <img id="persona1" src="./Images/TheLightRailApp/jacovPersona.png"
-                                            alt="פרסונה-יעקב" aria-label="פרסונה-יעקב" class="d-block w-100"
-                                            style="transform: rotate(0deg);">
-                                    </div>
-                                    <div id="slide2" class="carousel-item">
-                                        <img src="./Images/TheLightRailApp/leaPersona.png" alt="פרסונה-יעקב"
-                                            aria-label="פרסונה-לאה" class="d-block w-100"
-                                            style="transform: rotate(0deg);">
-                                    </div>
-                                    <div id="slide3" class="carousel-item">
-                                        <img id="persona3" src="./Images/TheLightRailApp/victorPersona.png"
-                                            alt="פרסונה-יעקב" class="d-block w-100" style="transform: rotate(0deg);">
-
-                                    </div>
-
-                                    <button class="carousel-control-prev" type="button"
-                                        data-bs-target="#personasCarousel" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button"
-                                        data-bs-target="#personasCarousel" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="d-flex justify-content-center mt-4" data-bs-toggle="modal"
+                    data-bs-target="#StructureTreeTwoChinesse">
+                    <img src="./Images/TwoChinesse/StructureTreeTwoChinesse.png" alt="עץ מבנה" aria-label="עץ מבנה">
                 </div>
             </div>
         </section>

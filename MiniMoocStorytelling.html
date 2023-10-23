@@ -60,40 +60,36 @@
         </div>
     </nav>
 
-    <header class="container-fluid blackBackground pt-md-0 pb-0 p-5 position-sticky top-0">
+    <header class="container-fluid blackBackground pt-md-0 pb-0 p-5">
         <section class="pages container text-center">
             <div>
-                <h1 class="pt-2 text-white text-end" style="font-size: 14vw;"><span>הסיפור של סטוריטלינג</span></h1>
-                <p class="text-end text-white" data-aos="fade-up" data-aos-duration="1500" data-aos-delay='500'
-                    data-aos-anchor-placement="top-center">
+                <h1 class="pt-4 text-white text-end" style="font-size: 14vw;"><span>הסיפור של סטוריטלינג</span></h1>
+                <p class="revealTextAnimation text-end text-white">
                     הכירו את המיני-קורס בנושא <span class="fw-bold">סטוריטלינג.</span>
                     הקורס המיועד לאנשי שיווק ג׳וניור ומלווה את לומדיו שלב אחר שלב ביצירת סטרוטלינג שיווקי.
                     קורס זה משלב בתוכו שימוש בפלטפורמה ״genially" ליצירת engagement עם הלומדים ואף כולל בתוכו ראיונות עם
                     מומחי תוכן בתחום הסטוריטלינג.
                 </p>
             </div>
+
+            <div id="programsIcons" class="revealTextAnimation d-flex gap-2 text-white mt-3">
+                <p>Adobe Illustrator</p>
+                <p>Moodle</p>
+                <p>Genially</p>
+            </div>
         </section>
-        <div class="p-5 pt-3 d-flex justify-content-center container-fluid stickyBackground blackBackground">
-            <img src="./Images/MiniMoocStorytelling/miniMoocStorytelling.png" alt="">
-        </div>
     </header>
 
+    <div class="p-5 pt-3 container-fluid blackBackground position-sticky top-0">
+        <img src="./Images/MiniMoocStorytelling/miniMoocStorytelling.png" alt="">
+    </div>
 
     <main class="pt-4 pb-2 position-relative">
-        <div id="programsIcons" class="d-flex justify-content-center grayBackground gap-3 mt-4 p-2"
-            style="width: 10rem;">
-            <img src="./Images/ProgramsLogos/adobeIllustratorLogo.svg" alt="אילוסטרייטור">
-            <img src="./Images/ProgramsLogos/moodleLogo.svg" alt="מוודל">
-            <img src="./Images/ProgramsLogos/geniallyLogo.svg" alt="ג׳ניאלי">
-        </div>
-        <section class="container pb-5">
-            <div class="mt-5">
-                <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay='400'
-                    data-aos-anchor-placement="top-center">
-                    <h2>המטרה</h2>
-                    <div class="titleDivider"></div>
-                </div>
-
+        <section class="container lightBackground p-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay='400'
+            data-aos-anchor-placement="top-center">
+            <div>
+                <h2>המטרה</h2>
+                <div class="titleDivider"></div>
                 <div class="d-flex justify-content-center align-items-center row mt-3">
                     <div class="col-12 col-md-6">
                         <img src="./Images/MiniMoocStorytelling/storytellingHeader.svg" alt="">
@@ -125,7 +121,7 @@
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay='400'>
                 <h2>מסמך פיצוח</h2>
                 <div class="titleDivider"></div>
-                <p class="mt-4">עם תחילת הפרויקט הכנו מסמך פיצוח המתאר את רצף הלמידה, נושאי הלימוד , שיטות ההדרכה וכן,
+                <p class="mt-4">עם תחילת הפרויקט הכנו מסמך פיצוח המתאר את רצף הלמידה, נושאי הלימוד, שיטות ההדרכה וכן,
                     את
                     מדיניות הערכה.</p>
             </div>
@@ -138,9 +134,6 @@
                         <img src="./Images/MiniMoocStorytelling/miniMockDocument_img1.png" alt="מסמך פיצוח - תמונה 1"
                             aria-label="מסמך פיצוח - תמונה 1">
                     </div>
-
-
-
                     <div class="col-12 col-md-6 mt-3" data-bs-toggle="modal" data-bs-target="#miniMockDocument"
                         data-aos="zoom-out-right" data-aos-duration="800" data-animation-delay="300"
                         onclick="activeImg('slide2')">
@@ -155,20 +148,12 @@
                     </div>
                 </div>
             </div>
-            <!--     <div class="content">
-                <div class="content-overlay"></div>
-                <img class="content-image" src="https://source.unsplash.com/HkTMcmlMOUQ" alt="">
-                <div class="content-details fadeIn-bottom">
-                    <h3 class="content-title">This is a title</h3>
-                    <p class="content-text">This is a short description</p>
-                </div>
-            </div> -->
 
 
             <!-- פופ-אפ קרוסלת תמונות מסמך פיצוח -->
             <div class="modal fade" id="miniMockDocument" aria-labelledby="miniMockDocumenttLabel" aria-hidden="true"
                 data-bs-backdrop="static" data-touch="true">
-                <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-dialog modal-dialog-centered p-lg-5 p-xl-0">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="closeBtn position-absolute" data-bs-dismiss="modal"
@@ -193,20 +178,20 @@
                                         <img src="./Images/MiniMoocStorytelling/miniMockDocument_img3.png"
                                             class="d-block w-100" alt="מסמך פיצוח - תמונה 3">
                                     </div>
-
-                                    <button class="carousel-control-next" type="button"
-                                        data-bs-target="#digitalArtCarousel" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
-
-                                    <button class="carousel-control-prev" type="button"
-                                        data-bs-target="#digitalArtCarousel" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-
                                 </div>
+
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#miniMockDocumentCarousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#miniMockDocumentCarousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+
                             </div>
                         </div>
                     </div>
@@ -294,41 +279,44 @@
                     <img src="./Images/MiniMoocStorytelling/lampIcon.svg" alt="אייקון מנורה" aria-label="אייקון מנורה">
                 </div>
         </section>
-
-        <section class="mt-4 pt-4 pb-5" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay='400'
-            data-aos-anchor-placement="top-center">
+        <!--        data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay='400'
+        data-aos-anchor-placement="top-center" -->
+        <section class="mt-4 pt-4 pb-5">
             <div class="container">
-                <h2>שילוב Genially</h2>
-                <div class="titleDivider"></div>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay='400'>
+                       <h2>שילוב <span class="englishFont">Genially</span></h2>
+                <div class="titleDivider"></div> 
+                </div>
+            
                 <div class="shadowImages d-flex justify-content-center align-items-center mt-3">
                     <div class="row justify-content-center align-items-center m-2">
                         <div class="col-12 col-md-4 mt-3" data-bs-toggle="modal" data-bs-target="#miniMockGenially"
-                            onclick="activeImg('slide4')">
+                        data-aos="zoom-out-left" data-aos-duration="1000" data-animation-delay="600" onclick="activeImg('slide4')">
                             <img src="./Images/MiniMoocStorytelling/genially_img1.png" alt="תמונה של שילוב ג׳ניאלי 1"
                                 aria-label="תמונה של שילוב ג׳ניאלי 1">
                         </div>
                         <div class="col-12 col-md-4 mt-3" data-bs-toggle="modal" data-bs-target="#miniMockGenially"
-                            onclick="activeImg('slide5')">
+                        data-aos="zoom-out" data-aos-duration="1000" data-animation-delay="600" onclick="activeImg('slide5')">
                             <img src="./Images/MiniMoocStorytelling/genially_img2.png" alt="תמונה של שילוב ג׳ניאלי 2"
                                 aria-label="תמונה של שילוב ג׳ניאלי 2">
                         </div>
                         <div class="col-12 col-md-4 mt-3" data-bs-toggle="modal" data-bs-target="#miniMockGenially"
-                            onclick="activeImg('slide6')">
+                        data-aos="zoom-out-right" data-aos-duration="1000" data-animation-delay="600" onclick="activeImg('slide6')">
                             <img src="./Images/MiniMoocStorytelling/genially_img3.png" alt="תמונה של שילוב ג׳ניאלי 3"
                                 aria-label="תמונה של שילוב ג׳ניאלי 3">
                         </div>
                         <div class="col-12 col-md-4 mt-3" data-bs-toggle="modal" data-bs-target="#miniMockGenially"
-                            onclick="activeImg('slide7')">
+                        data-aos="zoom-out-left" data-aos-duration="1000" data-animation-delay="600" onclick="activeImg('slide7')">
                             <img src="./Images/MiniMoocStorytelling/genially_img4.png" alt="תמונה של שילוב ג׳ניאלי 4"
                                 aria-label="תמונה של שילוב ג׳ניאלי 4">
                         </div>
                         <div class="col-12 col-md-4 mt-3" data-bs-toggle="modal" data-bs-target="#miniMockGenially"
-                            onclick="activeImg('slide8')">
+                        data-aos="zoom-out" data-aos-duration="1000" data-animation-delay="600" onclick="activeImg('slide8')">
                             <img src="./Images/MiniMoocStorytelling/genially_img5.png" alt="תמונה של שילוב ג׳ניאלי 5"
                                 aria-label="תמונה של שילוב ג׳ניאלי 5">
                         </div>
                         <div class="col-12 col-md-4 mt-3" data-bs-toggle="modal" data-bs-target="#miniMockGenially"
-                            onclick="activeImg('slide9')">
+                        data-aos="zoom-out-right" data-aos-duration="1000" data-animation-delay="600" onclick="activeImg('slide9')">
                             <img src="./Images/MiniMoocStorytelling/genially_img6.png" alt="תמונה של שילוב ג׳ניאלי 6"
                                 aria-label="תמונה של שילוב ג׳ניאלי 6">
                         </div>
@@ -336,11 +324,10 @@
                 </div>
 
 
-
                 <!-- פופ-אפ קרוסלת תמונות ג׳נאילי -->
-                <div class="modal fade" id="miniMockGenially" aria-labelledby="miniMockDocumentLabel" aria-hidden="true"
+                <div class="modal fade" id="miniMockGenially" aria-labelledby="miniMockGeniallyLabel" aria-hidden="true"
                     data-bs-backdrop="static" data-touch="true">
-                    <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-dialog modal-dialog-centered p-lg-5 p-xl-0">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="closeBtn position-absolute" data-bs-dismiss="modal"
@@ -383,19 +370,19 @@
                                                 class="d-block w-100" alt="תמונה של שילוב ג׳ניאלי 6"
                                                 aria-label="תמונה של שילוב ג׳ניאלי 6">
                                         </div>
-
-                                        <button class="carousel-control-next" type="button"
-                                            data-bs-target="#miniMockGeniallyCarousel" data-bs-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Next</span>
-                                        </button>
-
-                                        <button class="carousel-control-prev" type="button"
-                                            data-bs-target="#miniMockGeniallyCarousel" data-bs-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Previous</span>
-                                        </button>
                                     </div>
+
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#miniMockGeniallyCarousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#miniMockGeniallyCarousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -404,30 +391,21 @@
             </div>
         </section>
 
-        <section id="miniMoocStorytelling" class="mt-4 mb-5">
-            <div data-aos="fade-in" data-aos-duration="1500" data-aos-delay='900'
-                data-aos-anchor-placement="top-center">
-                <h2>התוצר הסופי</h2>
-                <div class="titleDivider"></div>
-            </div>
-
-            <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay='1500'
-                data-aos-anchor-placement="center">
-                <div class="macbook mt-4">
-                    <div class="screen">
-                        <div class="viewport">
-                            <video class="viewport" controls aria-label="וידאו מיני מוק בנושא סטוריטלינג">
-                                <source src="./Images/MiniMoocStorytelling/storytellingMiniMockVideo.mp4"
-                                    type="video/mp4">
-                            </video>
-                        </div>
+        <section id="miniMoocStorytelling" class="mt-4 mb-5" data-aos="zoom-in-up" data-aos-duration="1000"
+            data-aos-delay='1500' data-aos-anchor-placement="center">
+            <h2>התוצר הסופי</h2>
+            <div class="titleDivider"></div>
+            <div class="macbook mt-4">
+                <div class="screen">
+                    <div class="viewport">
+                        <video class="viewport" controls aria-label="וידאו מיני מוק בנושא סטוריטלינג">
+                            <source src="./Images/MiniMoocStorytelling/storytellingMiniMockVideo.mp4" type="video/mp4">
+                        </video>
                     </div>
-                    <div class="base"></div>
-                    <div class="notch"></div>
                 </div>
+                <div class="base"></div>
+                <div class="notch"></div>
             </div>
-
-
         </section>
 
 

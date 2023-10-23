@@ -53,45 +53,41 @@
         </div>
     </nav>
 
-    <header class="container-fluid blackBackground pt-md-0 pb-0 p-5 position-sticky top-0">
+    <header class="container-fluid blackBackground pt-md-0 pb-0 p-5">
         <section class="pages container text-center">
             <div>
-                <h1 class="pt-2 text-white text-end"><span>ספראלנד</span></h1>
-                <p class="text-end text-white" data-aos="fade-up" data-aos-duration="1500" data-aos-delay='500'
-                    data-aos-anchor-placement="top-center">
+                <h1 class="pt-4 text-white text-end"><span>ספראלנד</span></h1>
+                <p class="revealTextAnimation text-end text-white">
                     <span class="changeFontWeigth">אפליקציית WEB</span> לסיור אינטראקטיבי להכרת מתחמים במרחב בית החולים
                     עבור
                     ילדים מאושפזים בגילאי 5-9.
                 </p>
             </div>
-        </section>
 
-        <section class="pt-5">
-            <div id="programsIcons" class="d-flex justify-content-center grayBackground gap-3 p-2"
-                style="width: 20rem;">
-                <img src="./Images/ProgramsLogos/adobeIllustratorLogo.svg" alt="אילוסטרייטור">
-                <img src="./Images/ProgramsLogos/figmaLogo.svg" alt="פיגמה">
-                <img src="./Images/ProgramsLogos/adobeAnimateLogo.svg" alt="אנימייט xd">
-                <img src="./Images/ProgramsLogos/visualStudioLogo.svg" alt="visual studio">
-                <img src="./Images/ProgramsLogos/visualStudioCodeLogo.svg" alt="visual studio code">
-                <img src="./Images/ProgramsLogos/valentinaStudioLogo.svg" alt="valentina studio">
+            <div id="programsIcons" class="revealTextAnimation d-flex gap-2 text-white mt-3 pb-3">
+                <p>Adobe Illustrator</p>
+                <p>Adobe Animate</p>
+                <p>Adobe After Effects</p>
+                <p>Figma</p>
+                <p>Visual Studio</p>
+                <p>Visual Studio Code</p>
+                <p>Valentina Studio</p>
             </div>
         </section>
-        <div class="p-5 pt-3 container-fluid stickyBackground blackBackground d-flex justify-content-center">
-            <img src="./Images/Safraland/safraland.png" alt="" style="width: 70%;">
-        </div>
     </header>
 
-
-
+ <div class="p-5 pt-3 container-fluid stickyBackground blackBackground d-flex justify-content-center position-sticky top-0">
+            <img src="./Images/Safraland/safraland.png" alt="" style="width: 70%;">
+        </div>
 
     <main class="position-relative">
         <section class="pt-5 pb-3">
-            <div class="container mt-3">
+            <div class="container lightBackground p-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay='400'
+            data-aos-anchor-placement="top-center">
                 <h2>מטרת ותיאור התוצר</h2>
                 <div class="titleDivider"></div>
 
-                <p class="mt-3 text-center text-md-end">אפליקציית ה- WEB פותחה בשיתוף בית החולים לילדים <span
+                <p class="mt-4 text-center text-md-end">אפליקציית ה- WEB פותחה בשיתוף בית החולים לילדים <span
                         class="fw-bold">אדמונד
                         ולילי ספרא</span> ונועדה לסייע לילדים מאושפזים בגילאי
                     5-9 בהכרת מתחמי הפנאי והמתחמים הרפואיים במרחב בית החולים באופן חוויתי. היכרות זו עשויה
@@ -121,13 +117,14 @@
                 </p>
             </div>
 
-            <div class="d-flex justify-content-center mt-5 pt-4">
+            <div class="d-flex justify-content-center mt-5 pt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay='500'
+            data-aos-anchor-placement="top-center">
                 <img id="logo" src="./Images/Safraland/logoSafraland.png" alt="לוגו ספראלנד" style="width: 45%;">
             </div>
         </section>
 
 
-        <section class="mt-5 pt-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay='400'
+        <section class="mt-5 pt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay='200'
             data-aos-anchor-placement="top-center">
             <h2>עץ מבנה</h2>
             <div class="titleDivider"></div>
@@ -149,61 +146,37 @@
                     </svg>
                 </a>
             </div>
-
-
-            <!-- פופ-אפ עץ מבנה -->
-            <div class="modal fade" id="structureTreeSafraland" aria-labelledby="tructureTreeToTheSweetKidLabel"
-                aria-hidden="true" data-bs-backdrop="static">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="closeBtn position-absolute" data-bs-dismiss="modal"
-                                aria-label="סגור חלון פופ-אפ">
-                                <img src="./Images/closeBtn.svg" alt="סגור חלון פופ-אפ">
-                            </button>
-                        </div>
-                        <div class="modal-body p-1">
-                            <!-- קרוסלה -->
-                            <div id="structureTreeSafralandCarousel" class="carousel slide col-12"
-                                data-bs-ride="carousel" data-bs-interval="false" data-bs-touch="true">
-                                <div class="carousel-inner">
-                                    <div id="slide1" class="carousel-item">
-                                        <img id="persona1" src="./Images/Safraland/structureTreeSafraland.png"
-                                            alt="עץ מבנה" aria-label="עץ מבנה" class="d-block w-100"
-                                            style="transform: rotate(0deg);">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
 
-        <section class="mt-5 pt-5 pb-5" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay='400'
-            data-aos-anchor-placement="top-center">
-            <div class="container">
+        <section class="mt-5 pt-5 pb-5 container" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay='500'
+        data-aos-anchor-placement="top-center">
                 <h2>אפיון</h2>
                 <div class="titleDivider"></div>
-                <p class="mt-4">לאחר ניתוח צרכי ההדרכה וניתוח קהל היעד, התחלנו באפיון הפרויקט.</p>
+                <p class="mt-4 text-center">לאחר ניתוח צרכי ההדרכה וניתוח קהל היעד, התחלנו באפיון הפרויקט.</p>
                 <div class="shadowImages d-flex justify-content-center mt-4">
                     <div class="row m-2">
-                        <div class="col-6 col-md-4 col-lg-2 mt-3">
+                        <div class="col-6 col-md-4 col-lg-2 mt-3" data-bs-toggle="modal"
+                            data-bs-target="#prototypeSafralandApp" onclick="activeImg('slide1')">
                             <img src="./Images/Safraland/sketch1.png" alt="סקיצה1" aria-label="סקיצה1">
                         </div>
-                        <div class="col-6 col-md-4 col-lg-2 mt-3">
+                        <div class="col-6 col-md-4 col-lg-2 mt-3" data-bs-toggle="modal"
+                            data-bs-target="#prototypeSafralandApp" onclick="activeImg('slide2')">
                             <img src="./Images/Safraland/sketch2.png" alt="סקיצה2" aria-label="סקיצה2">
                         </div>
-                        <div class="col-6 col-md-4 col-lg-2 mt-3">
+                        <div class="col-6 col-md-4 col-lg-2 mt-3" data-bs-toggle="modal"
+                            data-bs-target="#prototypeSafralandApp" onclick="activeImg('slide3')">
                             <img src="./Images/Safraland/sketch3.png" alt="סקיצה3" aria-label="סקיצה3">
                         </div>
-                        <div class="col-6 col-md-4 col-lg-2 mt-3">
+                        <div class="col-6 col-md-4 col-lg-2 mt-3" data-bs-toggle="modal"
+                            data-bs-target="#prototypeSafralandApp" onclick="activeImg('slide4')">
                             <img src="./Images/Safraland/sketch4.png" alt="סקיצה4" aria-label="סקיצה4">
                         </div>
-                        <div class="col-6 col-md-4 col-lg-2 mt-3">
+                        <div class="col-6 col-md-4 col-lg-2 mt-3" data-bs-toggle="modal"
+                            data-bs-target="#prototypeSafralandApp" onclick="activeImg('slide5')">
                             <img src="./Images/Safraland/sketch5.png" alt="סקיצה5" aria-label="סקיצה5">
                         </div>
-                        <div class="col-6 col-md-4 col-lg-2 mt-3">
+                        <div class="col-6 col-md-4 col-lg-2 mt-3" data-bs-toggle="modal"
+                            data-bs-target="#prototypeSafralandApp" onclick="activeImg('slide6')">
                             <img src="./Images/Safraland/sketch6.png" alt="סקיצה6" aria-label="סקיצה6">
                         </div>
                     </div>
@@ -221,7 +194,59 @@
                         </svg>
                     </a>
                 </div>
-            </div>
+
+                <!-- פופ-אפ קרוסלת תמונת אפיון -->
+                <div class="modal fade" id="prototypeSafralandApp" aria-labelledby="prototypeSafralandAppLabel"
+                    aria-hidden="true" data-bs-backdrop="static">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="closeBtn position-absolute" data-bs-dismiss="modal"
+                                    aria-label="סגור חלון פופ-אפ">
+                                    <img src="./Images/closeBtn.svg" alt="סגור חלון פופ-אפ">
+                                </button>
+                            </div>
+                            <div class="modal-body p-1">
+                                <!-- קרוסלה -->
+                                <div id="prototypeSafralandAppCarousel" class="carousel slide col-12"
+                                    data-bs-ride="carousel" data-bs-interval="false" data-bs-touch="true">
+                                    <div class="carousel-inner">
+                                        <div id="slide1" class="carousel-item">
+                                            <img src="./Images/Safraland/sketch1.png" alt="סקיצה1" aria-label="סקיצה1">
+                                        </div>
+                                        <div id="slide2" class="carousel-item">
+                                            <img src="./Images/Safraland/sketch2.png" alt="סקיצה2" aria-label="סקיצה2">
+                                        </div>
+                                        <div id="slide3" class="carousel-item">
+                                            <img src="./Images/Safraland/sketch3.png" alt="סקיצה3" aria-label="סקיצה3">
+                                        </div>
+                                        <div id="slide4" class="carousel-item">
+                                            <img src="./Images/Safraland/sketch4.png" alt="סקיצה4" aria-label="סקיצה4">
+                                        </div>
+                                        <div id="slide5" class="carousel-item">
+                                            <img src="./Images/Safraland/sketch5.png" alt="סקיצה5" aria-label="סקיצה5">
+                                        </div>
+                                        <div id="slide6" class="carousel-item">
+                                            <img src="./Images/Safraland/sketch6.png" alt="סקיצה6" aria-label="סקיצה6">
+                                        </div>
+                                    </div>
+
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#prototypeSafralandAppCarousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#prototypeSafralandAppCarousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </section>
 
         <section class="mt-5 pt-5 pb-5 container">
@@ -336,28 +361,33 @@
                 משחקי, החלטנו כי לכל דמות תהיה הייחודיות שלה, למשל החתולה הינה מלכה והדובי הינו קוסם.</p>
             <div class="d-flex mt-3">
                 <div class="row mt-4 justify-content-center">
-                    <div class="col-4 col-md-2">
+                    <div class="col-4 col-md-2" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay='200'
+                    data-aos-anchor-placement="top-center">
                         <img src="./Images/Safraland/bunnyCharacter.svg" alt="דמות ארנב" aria-label="דמות ארנב">
                     </div>
-                    <div class="col-4 col-md-2">
+                    <div class="col-4 col-md-2" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay='300'
+                    data-aos-anchor-placement="top-center">
                         <img src="./Images/Safraland/teddyBearCharacter.svg" alt="דמות דובי" aria-label="דמות דובי">
                     </div>
-                    <div class="col-4 col-md-2">
+                    <div class="col-4 col-md-2" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay='400'
+                    data-aos-anchor-placement="top-center">
                         <img src="./Images/Safraland/penguinCharacter.svg" alt="דמות פינגווין"
                             aria-label="דמות פינגווין">
                     </div>
-                    <div class="col-4 col-md-2">
+                    <div class="col-4 col-md-2" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay='500'
+                    data-aos-anchor-placement="top-center">
                         <img src="./Images/Safraland/lionCharacter.svg" alt="דמות אריה" aria-label="דמות אריה">
                     </div>
-                    <div class="col-4 col-md-2">
+                    <div class="col-4 col-md-2" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay='600'
+                    data-aos-anchor-placement="top-center">
                         <img src="./Images/Safraland/catCharacter.svg" alt="דמות חתולה" aria-label="דמות חתולה">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="mt-5 pt-5 pb-5 pb-md-3">
-            <div class="container">
+        <section class="mt-5 me-5 ms-5 pt-5 pb-5 pb-md-3">
+            <div class="container-fluid lightBackground pt-3">
                 <h2>מסך נתוני נרשמים</h2>
                 <div class="titleDivider"></div>
                 <div class="d-flex mt-md-5">
@@ -367,7 +397,7 @@
                                 פותח עבור בית
                                 החולים דף אינטרנט רספונסיבי המציג את <span class="changeFontWeigth">התפלגות נתוני
                                     המשתמשים.</span></p>
-                            <div id="qrCodeDesktop" class="mt-3">
+                            <div class="mt-3 d-none d-md-block">
                                 <div class="d-flex justify-content-center">
                                     <img src="./Images/Safraland/DataTableQrCode.svg" class="QrCodeSafraland"
                                         alt="ברקוד לסריקה" aria-label="ברקוד לסריקה">
@@ -394,7 +424,7 @@
                     </div>
                 </div>
 
-                <div id="qrCodeMobile">
+                <div class="d-block d-md-none">
                     <div class="d-flex justify-content-center">
                         <img src="./Images/Safraland/DataTableQrCode.svg" class="QrCodeSafraland" alt="ברקוד לסריקה"
                             aria-label="ברקוד לסריקה">
@@ -418,7 +448,7 @@
         <section class="mt-5 pt-5 pb-5 container">
             <h2>פוסטר וסרטון תדמית</h2>
             <div class="titleDivider"></div>
-            <p class="mt-4">לצורך שיווק התוצר יצרנו פוסטר וסרטון תדמית, מוזמנים לצפות :)</p>
+            <p class="mt-4 text-center">לצורך שיווק התוצר יצרנו פוסטר וסרטון תדמית, מוזמנים לצפות :)</p>
             <iframe class="mt-4"
                 src="https://player.vimeo.com/video/859665267?h=4ca8645aea&color=539D9D&title=0&byline=0&portrait=0"
                 frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>

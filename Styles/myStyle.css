@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
 
-@font-face {
-  font-family: "OS Luizi Round_FFC", sans-serif;
-  src: local("OS Luizi Round_FFC"), url('../fonts/OS Luizi Round_FFC.otf') format("opentype");
-}
 
 @font-face {
   font-family: "HorevCLM-Heavy";
@@ -25,19 +22,15 @@ body {
   width: 100%;
   text-align: right;
   overflow-x: clip;
-/*   overflow-y: auto !important; */
+  /*   overflow-y: auto !important; */
   min-height: 100vh;
   scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Open Sans Hebrew', serif;
-  /*   background-color: #18181B; */
-  /*   background: linear-gradient(180deg, #18181B -2.73%, rgba(107, 106, 171, 0.346) 50.92%, #18181B 99%);
- */
-  /*   color: white; */
   color: #353535;
-  background-color: #f8f7f7;
+  background-color: #f6f6f6;
 }
 
 :root {
@@ -49,12 +42,8 @@ header {
   padding: 7vw;
 }
 
-.container {
-  z-index:1041;
-}
-
 h1 {
-  font-size: 2.75rem;
+  font-size: 8vw;
   font-weight: 700;
   text-align: right;
   letter-spacing: 0.35625rem;
@@ -62,10 +51,10 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 7vw;
+  line-height: 6vw;
   text-align: center;
   letter-spacing: 0.12rem;
-  font-weight: 400;
   font-family: "HorevCLM-Heavy";
   margin-bottom: 0;
 }
@@ -90,14 +79,16 @@ iframe {
 }
 
 main {
-  background-color: white;
-  z-index: 1;
-  /*   overflow-x: hidden; */
+  background-color: #f6f6f6;
 }
 
 a {
   text-decoration: none;
-  color: #363F52;
+  color: #353535;
+}
+
+a:hover {
+  color: #202226;
 }
 
 li {
@@ -109,60 +100,37 @@ img {
   height: auto;
 }
 
-a:hover {
-  color: #202226;
-}
-
-.grayBackground {
-  background-color: #F3F3F3;
-  border-radius: 1rem;
-}
-
-.blackBackground {
-  background-color: #1F1F1F;
-  /*   background-color: #202226 */
-}
-
 footer p {
   font-size: 0.7rem;
   background-color: white;
 }
 
-#programsIcons {
-  width: 12rem;
+.lightBackground {
+  background-color: #fdfdfd;
+  /*   border: 1px solid #c8c8c891; */
   border-radius: 1rem;
-  margin: 0 auto;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-#programsIcons img {
-  width: 3.5rem;
-  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, .16));
+.blackBackground {
+  background-color: #1F1F1F;
+}
+
+.englishFont {
+  font-family: 'Odibee Sans', sans-serif;
+}
+
+.changeFontWeigth {
+  font-weight: 500;
+}
+
+.changeHeight {
+  height: 41vh;
 }
 
 
-/* .customShapeDivider {
-  position: absolute;
-  bottom: -46px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  z-index: 2;
-  padding: 0;
-}
-
-.customShapeDivider svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 96px;
-  } */
 
 
-
-
-/* קישור */
+/*---------- קישור ----------*/
 
 .linkInPage span {
   letter-spacing: 0.16rem;
@@ -176,7 +144,6 @@ footer p {
 .linkInPage:hover svg {
   transform: scaleX(-1) translateX(0.7rem);
 }
-
 
 .hover-underline-animation {
   position: relative;
@@ -202,12 +169,14 @@ footer p {
   transform-origin: bottom right;
 }
 
-.changeFontWeigth {
-  font-weight: 500;
+.prototypeAppLInk .hover-underline-animation:after {
+  right: 0rem;
 }
 
 
-/* כפתור חזרה למעלה */
+
+/*---------- כפתור חזרה למעלה ----------*/
+
 #backToTop {
   color: #868686;
 }
@@ -218,23 +187,32 @@ footer p {
 
 
 
-/* תמונות */
+/*---------- תמונות ----------*/
+
 #imagesInPhone img {
   width: 10rem;
 }
 
 
+.shadowImages img {
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.187);
+  cursor: zoom-in;
+}
 
-/* פופ-אפ */
+
+
+
+/*---------- פופ-אפ ----------*/
 .modal-header {
   padding: 0;
   border-bottom: unset;
 }
 
 .modal-dialog {
-  max-width: 600px;
+  max-width: 800px;
   margin-left: 3rem;
   margin-right: 3rem;
+  top: 2rem;
 }
 
 .modal.fade .modal-dialog {
@@ -252,9 +230,9 @@ footer p {
   filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, .16));
   left: 0;
   right: 0;
-  width: 32%;
+  width: 10rem;
   margin: 0 auto;
-  /*   margin-bottom: 13% */
+  margin-bottom: 1rem;
 }
 
 .closeBtn img {
@@ -262,7 +240,8 @@ footer p {
 }
 
 
-/* קרוסלה */
+/*---------- קרוסלה ----------*/
+
 .carousel-control-prev {
   left: -17%;
   margin-left: 0.7rem;
@@ -313,7 +292,7 @@ footer p {
 
 
 
-/* תפריט ניווט */
+/*---------- תפריט ניווט ----------*/
 .navbar {
   padding: 0rem;
   font-size: 0.8rem;
@@ -329,7 +308,6 @@ footer p {
 .nav-link:focus,
 .nav-link:hover {
   color: #363F52;
-  /*   color: white; */
 }
 
 .navbar-light .navbar-brand {
@@ -354,14 +332,14 @@ footer p {
 .navLinks a::before {
   content: "";
   width: 100%;
-  height: 2px;
+  height: 1px;
   position: absolute;
   left: 0;
   bottom: 0;
   transition: 0.5s transform ease;
   transform: scale3d(0, 1, 1);
   transform-origin: 0 50%;
-  background: #AE9EF7;
+  background: #ffffff;
 }
 
 .navLinks a:hover::before {
@@ -369,7 +347,15 @@ footer p {
   transform-origin: 100% 50%;
 }
 
+.navLinksBlack .navLinks a::before {
+  background: #363F52;
+}
 
+#contact .navLinks a::before{
+  width: 63%;
+  height: 3px;
+  margin: -1rem auto;
+}
 
 
 
@@ -417,7 +403,6 @@ footer p {
   z-index: 2;
 }
 
-
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
 }
@@ -431,148 +416,13 @@ footer p {
 }
 
 
-
-/* -------------------------------------- */
-/* -------------- עמוד הבית ------------- */
-/* -------------------------------------- */
-
-#homePageHeader {
-  overflow: hidden;
-  /*   min-height: 56vh; */
-}
-
-#aboutMe h1 {
-  font-weight: 300;
-  letter-spacing: 0.12rem;
-  font-family: 'Open Sans Hebrew', serif;
-}
-
-#aboutMe .row {
-  --bs-gutter-x: unset;
-}
-
-#myName {
-  font-family: 'Open Sans Hebrew', serif;
-  letter-spacing: unset;
-  color: #353535;
-  font-weight: 300;
-}
-
-#myName span {
-  color: #A9A1E3;
-}
-
-#myNameLine {
-  width: 15rem;
-  margin-top: -2.8rem;
-  margin-right: 2rem;
-}
-
-#aboutMeDescription {
-  width: 20rem;
-  margin: 0 auto;
-}
-
-#aboutMeDescription p {
-  font-size: 1.8rem;
-}
-
-#violaIllustrationCircleDiv {
-  display: block;
-}
-
-#violaIllustrationDiv {
-  display: none;
-}
-
-.violaIllustration {
-  width: 51%;
-  display: block;
-  margin: auto;
-  z-index: 1;
-}
-
-
-/* כפתורים */
-/* .primaryBtn {
-  position: relative;
-  overflow: hidden;
-  height: 4rem;
-  background: #3d3a4e;
-  background-size: 400%;
-  color: #fff;
-  border: none;
-  border-radius: 10rem;
-  font-size: 1.4rem;
-
-  line-height: 0.3rem;
-  padding: 1rem 1.5rem 1rem 1.5rem;
-}
-
-.primaryBtn:hover::before {
-  transform: scaleX(1);
-}
-
-.primaryBtnContent {
-  position: relative;
-  z-index: 1;
-}
-
-.primaryBtn::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: scaleX(0);
-  transform-origin: center right;
-  width: 100%;
-  height: inherit;
-  border-radius: inherit;
-  background: linear-gradient(82.3deg,
-      rgba(150, 93, 233, 1) 10.8%,
-      rgba(99, 88, 238, 1) 94.3%);
-  transition: all 0.475s;
-}
-
-
-a .primaryBtnContent:hover,
-.primaryBtn:hover {
-  color: white;
-} */
-
-
-/* button.primaryBtn {
-  padding: 0.5rem;
-  height: 3rem;
-  border: 1px solid #333334;
-  border-radius: 100px;
-  color: #333334;
-  font-weight: Bold;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  font-size: 1rem;
-}
-
-button.primaryBtn:hover {
-  background-color: #333334;
-  color: white;
-}
-
-button.primaryBtn:active {
-  background-color: #0c0c0c;
-  transition: all 0.25s;
-  -webkit-transition: all 0.25s;
-  color: white;
-} */
-
-
-
+/*---------- כפתורים ----------*/
 
 button.primaryBtn {
   position: relative;
   display: inline-block;
   padding: 15px 30px;
-  font-size: 1rem;
+  font-size: 5vw;
   text-align: center;
   letter-spacing: 1px;
   text-decoration: none;
@@ -597,9 +447,107 @@ button.primaryBtn:active {
 
 
 
+/*-------------- כותרות --------------*/
+
+.pages h1 {
+  font-weight: 300;
+  font-size: 17vw;
+  letter-spacing: 0rem;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.70);
+  margin-bottom: 0;
+  line-height: 16vw;
+}
+
+.titleDivider {
+  width: 1.7rem;
+  border: 0.7px solid #3d3a4e;
+  margin: 0.5rem auto;
+}
+
+.pages h1 span,
+.revealTextAnimation {
+  animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+@keyframes reveal {
+  0% {
+    display: none;
+    opacity: 0;
+    transform: translate(0, 100%);
+  }
+
+  100% {
+    display: block;
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+
+
+/* ----------- תוכנות בשימוש ---------- */
+
+#programsIcons {
+  flex-wrap: wrap;
+}
+
+
+#programsIcons p {
+  border-radius: 5rem;
+  border: 1px solid #D9D9D9;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+
+
+
+
+/* -------------------------------------- */
+/* -------------- עמוד הבית ------------- */
+/* -------------------------------------- */
+
+#homePageHeader {
+  overflow: hidden;
+  /*   min-height: 56vh; */
+}
+
+#aboutMe h1 {
+  font-size: 7vw;
+  font-weight: 300;
+  letter-spacing: 0rem;
+  font-family: 'Open Sans Hebrew', serif;
+}
+
+#aboutMe .row {
+  --bs-gutter-x: unset;
+}
+
+#myName {
+  font-family: 'Open Sans Hebrew', serif;
+  letter-spacing: unset;
+  color: #353535;
+  font-size: 7.4vw;
+  white-space: nowrap;
+}
+
+
+#aboutMeDescription p {
+  font-size: 6vw;
+}
+
+.violaIllustration {
+  width: 51%;
+  display: block;
+  margin: auto;
+}
+
+
+
 
 /* אנימציה חץ */
-#arrowHomePage {
+/* #arrowHomePage {
   width: 2.5rem;
   display: block;
   cursor: pointer;
@@ -617,7 +565,7 @@ button.primaryBtn:active {
     transform: translateY(0.4rem);
   }
 }
-
+ */
 
 #myPortfolio {
   z-index: 1;
@@ -627,8 +575,9 @@ button.primaryBtn:active {
 #myPortfolio h2,
 #moreWorks h2,
 #contact h2 {
-  font-size: 7rem;
-  font-style: normal;
+  font-size: 23vw;
+  line-height: 9vw;
+
 }
 
 
@@ -692,23 +641,16 @@ button.primaryBtn:active {
 }
 */
 
-/* #myPortfolio h2,
-#moreWorks h2 {
-  font-size: 3rem;
-  /*   font-family: Open Sans Hebrew; 
-  font-weight: 700;
-}
- */
 
 
 #myPortfolio p {
   color: white;
 }
 
-.selectedWorks {
+/* .selectedWorks {
   font-weight: 400;
   color: #BBB;
-}
+} */
 
 #myPortfolio .whiteText p:first-child {
   font-weight: 500;
@@ -740,8 +682,6 @@ button.primaryBtn:active {
 #myPortfolioMiniMoocStorytelling {
   overflow: hidden;
   height: 20rem;
-  /* border-radius: 1.25rem;*/
-  /*  background-color: #f0f0f8; */
   background-color: #3b3b3f;
   background-position: center;
   background-repeat: no-repeat;
@@ -763,7 +703,6 @@ button.primaryBtn:active {
 
 #myPortfolioTwoChinesse:hover {
   background-color: #67735B;
-  /*   box-shadow: 0 0 20px #7b8a6c; */
   background-size: 33rem;
 }
 
@@ -807,11 +746,7 @@ button.primaryBtn:active {
 
 #myPortfolioToTheSweetKid:hover {
   background-color: #9B5AA5;
-  /*   box-shadow: 0 0 20px #b473bd; */
   background-size: 33rem;
-  /*   -webkit-mask-image: linear-gradient(to top, hsl(0 0% 0% / 0), hsl(0 0% 0% / 1) 20%, hsl(0 0% 0% / 1) 80%, hsl(0 0% 0% / 0));
-  mask-image: linear-gradient(to top, hsl(0 0% 0% / 0), hsl(0 0% 0% / 1) 20%, hsl(0 0% 0% / 1) 80%, hsl(0 0% 0% / 0));
- */
 }
 
 #myPortfolioToTheSweetKid:active {
@@ -906,21 +841,17 @@ button.primaryBtn:active {
 
 
 
-/* תוצרים נוספים */
+/*--------- תוצרים נוספים ---------*/
 
 #moreWorks {
   border-radius: 0 0 1rem 1rem;
-  /*   background-color: #f8f7f7; */
   position: relative;
   z-index: 2;
 }
 
 
 .moreWorksPagesTitles h2 {
-  font-family: 'Open Sans Hebrew', serif;
-  /*   font-family: 'Open Sans', sans-serif; */
-  color: white;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 .moreWorksIcon {
@@ -946,7 +877,6 @@ button.primaryBtn:active {
 }
 
 .circleArrow circle:hover {
-  /*  fill: #713693; */
   transform-origin: 50% 50% 0px;
   transition: ease-out 0.3s;
   box-shadow: inset 0 -100px 0 0 #725AC1;
@@ -958,14 +888,49 @@ button.primaryBtn:active {
 }
 
 
-/* יצירת קשר */
+/*--------- יצירת קשר ---------*/
 
 #contact {
   z-index: 0;
-  height: 40vh;
+  height: 30vh;
 }
 
-.contactIcons {
+a#contactLink:hover {
+  color: #353535;
+}
+
+a#contactLink:hover h2 {
+  transform: translateX(-2rem);
+  transition: 0.5s;
+}
+
+#circleDiv {
+  border-radius: 5rem;
+  background-color: #353535;
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+a#contactLink:hover #circleDiv {
+  transform-origin: 50% 50% 0px;
+  transition: 0.5s;
+  transform: scale(4);
+}
+
+a#contactLink svg {
+  transform: translate(4rem, 1rem);
+  position: absolute;
+  scale: 2;
+}
+
+a#contactLink:hover svg {
+  transform: translate3d(2.5rem, -0.8rem, 0rem);
+  transform-origin: 50% 50% 0px;
+  transition: 0.5s;
+}
+
+
+/* .contactIcons {
   width: 15rem;
 }
 
@@ -975,7 +940,7 @@ button.primaryBtn:active {
 
 .contactIcons img {
   width: 1.4rem;
-}
+} 
 
 .darkGrayBackground {
   background-color: #282828;
@@ -986,57 +951,13 @@ button.primaryBtn:active {
   background-color: #464242;
   border-radius: 50%;
 }
-
-.titleDividerH1 {
-  width: 2.7rem;
-  border: 1px solid #3d3a4e;
-  margin: 0 auto;
-}
-
-.titleDivider {
-  width: 1.7rem;
-  border: 0.7px solid #3d3a4e;
-  margin: 0 auto;
-}
-
-.pages h1 {
-  font-weight: 300;
-  font-size: 15vw;
-  letter-spacing: 0rem;
-  overflow: hidden;
-  color: rgba(0, 0, 0, 0.70);
-  margin-bottom: 0;
-}
-
-.prototypeAppLInk .hover-underline-animation:after {
-  right: 0rem;
-}
+*/
 
 
-.shadowImages img {
-  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.187);
-  cursor: zoom-in;
-}
-
-.noOpacity {
-  opacity: 0;
-}
 
 
-/* ----------------- */
 
-.stickyBackground {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
 
-/* 
-.imgHeaderPages{
-  background-color: #eaeaef;
-  border-radius: 2rem;
-}
- */
 
 /* ------------- אנימציות ------------ */
 
@@ -1049,67 +970,45 @@ button.primaryBtn:active {
   opacity: 1;
 }
 
-h1 span {
-  animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);
-}
-
-@keyframes reveal {
-  0% {
-    display: none;
-    opacity: 0;
-    transform: translate(0, 100%);
-  }
-
-  100% {
-    display: block;
-    opacity: 1;
-    transform: translate(0, 0);
-  }
-}
-
 
 .leftImgEntry {
-  /*   will-change: transform;*/
-  transform: translateX(-4rem);
+  /*   transform: translateX(-4rem);
   transition: transform 0.5s ease;
-  overflow: hidden;
+  overflow: hidden; */
+  animation: rotate 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -2s);
+
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
 }
 
-/* ----------------------------------------- */
-/* -------------- עמוד סרטונים ------------- */
-/* ----------------------------------------- */
+@keyframes rotate {
+  from {
+    transform: translateX(-22rem);
+  }
 
-#videosBanner {
-  background-image: url('../Images/Videos/videosBanner.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 3rem;
+  to {
+    transform: translateX(4rem);
+  }
 }
 
-#safralandVideos {
-  display: block;
-}
 
-#safralandVideos p {
-  font-size: 0.9rem;
-}
-
-#h2Link {
-  font-size: 1.5rem;
-}
-
-#videoDontComfortable svg {
-  width: 30%;
-  z-index: -1;
-}
 
 
 /* -------------------------------------------- */
 /* -------------- עמוד הרכבת הקלה ------------- */
 /* -------------------------------------------- */
 
+#personas .modal-dialog {
+  max-width: 700px;
+  margin: auto;
+}
 
+#handDrawings .modal-dialog {
+  max-width: 400px;
+  margin: auto;
+}
 
 #colorPallate p {
   font-size: 1rem;
@@ -1119,169 +1018,14 @@ h1 span {
   direction: ltr;
 }
 
+#theLightRailIcons img{
+  width: 5rem;
+  margin: 0 auto;
+}
+
 #messegesImgesRailApp img {
   width: 13rem;
 }
-
-
-#theLightRailAppPage {
-  background-color: #3B3847;
-  color: white;
-  overflow: hidden;
-  height: 28rem;
-}
-
-
-#theLightRailAppPage img {
-  transform: translate(-6rem, -1rem);
-}
-
-
-/* ---------------------------------------------- */
-/* -------------- עמוד deal for you ------------- */
-/* ---------------------------------------------- */
-
-
-
-
-
-
-
-
-
-/* ----------------------------------------------- */
-/* -------------- עמוד לילד המתוק! -------------- */
-/* ---------------------------------------------- */
-
-
-
-
-
-
-
-/* -------------------------------------------------- */
-/* -------------- עמוד איורים דיגטליים -------------- */
-/* -------------------------------------------------- */
-
-.galleryWarp {
-  /*   box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1); */
-  overflow: hidden;
-  position: relative;
-  height: 100%;
-}
-
-.galleryWarp img {
-  transition: 0.3s;
-  position: relative;
-  z-index: 1;
-  cursor: zoom-in;
-  object-fit: cover;
-  object-position: 50% 0;
-  height: 100%;
-}
-
-
-.galleryWarp img:hover {
-  transform: scale(1.1);
-}
-
-.gallery {
-  padding: 0rem;
-  position: relative;
-  overflow: hidden;
-  animation-name: anim-fade-scale-up;
-  animation-duration: 800ms;
-  animation-fill-mode: both;
-  animation-iteration-count: 1;
-  /*   transition-delay: 1s; */
-  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1);
-}
-
-
-
-
-@keyframes anim-fade-scale-up {
-
-  from,
-  to {
-    animation-timing-function: cubic-bezier(.4, 0, .2, 1);
-    transform-origin: center center
-  }
-
-  from {
-    opacity: 0;
-    transform: matrix(.92, 0, 0, .92, 0, 0)
-  }
-
-  to {
-    opacity: 1;
-    transform: matrix(1, 0, 0, 1, 0, 0)
-  }
-}
-
-
-
-
-
-/* ----------------------------------------- */
-/* -------------- עמוד איורים -------------- */
-/* ---------------------------------------- */
-
-#drawings .gallery {
-  transform: unset;
-  cursor: zoom-in;
-}
-
-#drawings .gallery img {
-  object-fit: cover;
-  object-position: 50% 0;
-  height: 100%;
-  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1);
-}
-
-#drawings .gallery .textOnImg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 100%);
-  z-index: 1;
-  opacity: 0;
-  transition: all 0.8s ease;
-  margin: 0;
-  text-align: center;
-  color: white;
-}
-
-.overlayOnImg {
-  background: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  /*   top: 0;
-  bottom: 0; */
-  right: 0;
-  margin: 0 auto;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
-}
-
-#drawings .gallery:hover .overlayOnImg {
-  opacity: 0.7;
-  z-index: 1;
-  transform: unset;
-}
-
-#drawings .gallery:hover .textOnImg {
-  opacity: 1;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-
 
 
 
@@ -1289,6 +1033,13 @@ h1 span {
 /* ---------------------------------------------------- */
 /* -------------- עמוד מינימוק סטוריטלינג ------------- */
 /* ---------------------------------------------------- */
+
+#miniMockDocument .modal-dialog,
+#miniMockGenially .modal-dialog {
+  max-width: 1000px;
+  margin: auto;
+}
+
 
 .macbook {
   margin: 0 auto;
@@ -1480,11 +1231,16 @@ h1 span {
 	background-attachment: fixed;
 } */
 
+
+
 /* ----------------------------------------- */
 /* -------------- עמוד ספארלנד ------------- */
 /* ----------------------------------------- */
 
-
+#prototypeSafralandApp .modal-dialog {
+  max-width: 400px;
+  margin: auto;
+}
 
 #safralandCharacters img {
   filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, .16))
@@ -1495,36 +1251,188 @@ h1 span {
   filter: drop-shadow(1px 4px 2px rgba(0, 0, 0, .16))
 }
 
-#qrCodeMobile {
-  display: block;
-}
-
-#qrCodeDesktop {
-  display: none;
-}
 
 #imagesInPhoneSafraland img {
-  width: 8rem;
+  width: 13rem;
 }
 
 #imagesInPhoneSafraland div:nth-child(2) img {
   transform: translateY(15%);
 }
 
+/* ---------------------------------------------- */
+/* -------------- עמוד deal for you ------------- */
+/* ---------------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------- */
+/* -------------- עמוד לילד המתוק! -------------- */
+/* ---------------------------------------------- */
+
+
+
+
+
+/* ----------------------------------------- */
+/* -------------- עמוד סרטונים ------------- */
+/* ----------------------------------------- */
+
+
+#safralandVideos {
+  display: block;
+}
+
+#safralandVideos p {
+  font-size: 0.9rem;
+}
+
+#h2Link {
+  font-size: 1.5rem;
+  font-family: "HorevCLM-Heavy";
+}
+
+
+/* -------------------------------------------------- */
+/* -------------- עמוד איורים דיגטליים -------------- */
+/* -------------------------------------------------- */
+
+
+.galleryWarp {
+  /*   box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1); */
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.galleryWarp img {
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+  cursor: zoom-in;
+  object-fit: cover;
+  object-position: 50% 0;
+  height: 100%;
+}
+
+
+.galleryWarp img:hover {
+  transform: scale(1.1);
+}
+
+.gallery {
+  padding: 0rem;
+  position: relative;
+  overflow: hidden;
+  animation-name: anim-fade-scale-up;
+  animation-duration: 800ms;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  /*   transition-delay: 1s; */
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+@keyframes anim-fade-scale-up {
+
+  from,
+  to {
+    animation-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transform-origin: center center
+  }
+
+  from {
+    opacity: 0;
+    transform: matrix(.92, 0, 0, .92, 0, 0)
+  }
+
+  to {
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0)
+  }
+}
+
+
+
+
+
+/* ----------------------------------------- */
+/* -------------- עמוד איורים -------------- */
+/* ---------------------------------------- */
+
+#drawings .gallery {
+  transform: unset;
+  cursor: zoom-in;
+}
+
+#drawings .gallery img {
+  object-fit: cover;
+  object-position: 50% 0;
+  height: 100%;
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1);
+}
+
+#drawings .gallery .textOnImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.8s ease;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+.overlayOnImg {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  /*   top: 0;
+  bottom: 0; */
+  right: 0;
+  margin: 0 auto;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+#drawings .gallery:hover .overlayOnImg {
+  opacity: 0.7;
+  z-index: 1;
+  transform: unset;
+}
+
+#drawings .gallery:hover .textOnImg {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 768px) {
   :root {
     font-size: 24px;
   }
-
-  h1 {
-    font-size: 2.5rem;
-    /*     font-family: OS Luizi Round_FFC; */
-  }
-
-  /*  h2 {
-    font-size: 1.3rem;
-  } */
 
   p {
     font-size: 1.1rem;
@@ -1558,83 +1466,29 @@ h1 span {
     padding-top: unset;
   }
 
-  /*   #homePageHeader {
-    min-height: 90vh;
-  } */
-
-  #aboutMe h1,
-  #myName {
-    font-size: 1.6rem;
+  .violaIllustration {
+    width: 38%;
   }
-
 
   #arrowHomePage {
     width: 1.5rem;
   }
 
-  #myName {
-    white-space: nowrap;
-    font-size: 1.6rem;
-    /*     font-size: 4rem; */
+  #aboutMe h1 {
+    font-size: 6vw;
   }
-
-  #myName span {
-    font-size: 2rem;
-  }
-
-  /* #myNameLine {
-    width: 9.5rem;
-  } */
-
-
-  /*  #aboutMeDescription {
-    transform: translateX(-6.7rem);
-  } */
 
   #aboutMeDescription p {
-    font-size: 0.9rem;
+    font-size: 4vw;
   }
 
   button {
     font-size: unset;
   }
 
-  /* .primaryBtn {
-    font-size: 0.8rem;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    height: 2rem;
-  } */
-
-
-  /*  .customShapeDivider svg {
-    height: 100px;
+  button.primaryBtn {
+    font-size: 3vw;
   }
- */
-
-  /*   #myPortfolio h2,
-  #moreWorks h2 {
-    font-size: 4rem;
-  } */
-
-
-  #programsIcons {
-    width: 8rem;
-  }
-
-  #programsIcons img {
-    width: 2.2rem;
-  }
-
-  /*  #theLightRailAppPage,
-  #toTheSweetKidPage {
-    height: 15rem;
-  } */
-
-  #theLightRailAppPage img {
-    width: 38rem;
-    transform: translate(8rem, -8rem);
-  }
-
 
   #persona1 {
     transform: rotate(-6.27deg);
@@ -1652,10 +1506,6 @@ h1 span {
     padding: 0;
   }
 
-  /*  #storytellingGoal p {
-    text-align: justify
-  } */
-
   #finalResultTwoChinesseMockup div div:nth-child(1) img {
     transform: translateX(-50%);
     padding-left: unset;
@@ -1670,14 +1520,6 @@ h1 span {
     padding-bottom: 2.5rem;
   }
 
-
-  #qrCodeMobile {
-    display: none;
-  }
-
-  #qrCodeDesktop {
-    display: block;
-  }
 }
 
 
@@ -1685,41 +1527,28 @@ h1 span {
 
 
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
 
   .modal-dialog {
     margin: 0 auto;
   }
 
-  #violaIllustrationCircleDiv {
-    display: none;
-  }
-
-  #violaIllustrationDiv {
-    display: block;
-  }
-
   .violaIllustration {
     width: 130%;
     margin: 0;
-    transform: translate(3.3rem, 2.4rem);
+    transform: translate(6.3rem, 2.4rem);
   }
 
   #homePageHeaderRightSide {
     transform: translate(-6vw, -1vw);
   }
 
-  #aboutMe h1,
-  #myName {
-    font-size: 2rem;
+  #aboutMe h1 {
+    font-size: 4.5vw;
   }
 
-  /*  #myName {
-    font-size: 5rem;
-  } */
-
-  #myName span {
-    font-size: 3.5rem;
+  #myName {
+    font-size: 6.6vw;
   }
 
   #aboutMeDescription {
@@ -1732,11 +1561,16 @@ h1 span {
     font-size: 1.2rem;
   }
 
-  .primaryBtn {
-    font-size: 1.2rem;
+  #myPortfolio h2,
+  #moreWorks h2,
+  #contact h2 {
+    font-size: 13vw;
   }
 
 
+  button.primaryBtn {
+    font-size: 1rem;
+  }
 
   #theLightRailApp p {
     width: 32rem;
@@ -1754,17 +1588,8 @@ h1 span {
 
 @media only screen and (min-width: 1440px) {
 
-  #aboutMe h1,
-  #myName {
-    font-size: 3rem;
-  }
-
-  /*   #myName {
-    font-size: 7rem;
-  } */
-
-  #myName span {
-    font-size: 4.5rem;
+  #aboutMe h1 {
+    font-size: 3vw;
   }
 
   .violaIllustration {
@@ -1779,10 +1604,6 @@ h1 span {
   #myPortfolioTheLightRail,
   #myPortfolioMiniMoocStorytelling {
     height: 30rem;
-  }
-
-  #myName span {
-    font-size: 3.5rem;
   }
 
   #aboutMeDescription p {

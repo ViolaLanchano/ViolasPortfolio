@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", function () {
   AOS.init();
-  
+
   const hamburger = document.querySelector(".hamburger");
   const navMenu = document.querySelector(".nav-menu");
 
@@ -21,22 +21,24 @@ window.addEventListener("DOMContentLoaded", function () {
   }
 })
 
+
 let scrollValue = 0;
 let maxHorizontalOffset = 2; // Adjust this value as needed
 
 /* תנאי גלילה */
 window.addEventListener('scroll', () => {
+
   let scroll = $(window).scrollTop();
   const newScrollValue = window.scrollY;
   const scrollDiff = newScrollValue - scrollValue;
 
   /* תמונה פתיח */
-/*   let homePageHeader = document.getElementById('homePageHeader');
-  if (homePageHeader != null) {
-    homePageHeader.style.transform = "scale(" + (100 - scroll / 100) / 100 + ")";
-    homePageHeader.style.opacity = Math.max(0, Math.min(1, -scroll / 400 + 2));
-  }
- */
+  /*   let homePageHeader = document.getElementById('homePageHeader');
+    if (homePageHeader != null) {
+      homePageHeader.style.transform = "scale(" + (100 - scroll / 100) / 100 + ")";
+      homePageHeader.style.opacity = Math.max(0, Math.min(1, -scroll / 400 + 2));
+    }
+   */
   let imgHeaderPages = document.getElementById('imgHeaderPages');
   if (imgHeaderPages != null) {
     imgHeaderPages.style.transform = "translate3d(0, +" + scroll / 100 + "%, 0) scale(" +
@@ -63,12 +65,13 @@ window.addEventListener('scroll', () => {
   const horizontalPosition = (verticalScroll / window.innerHeight) * maxHorizontalOffset;
 
   // Apply the horizontal position to the image
-  leftImg = document.getElementsByClassName("leftImgEntry");
-  for (let i = 0; i < leftImg.length; i++) {
-    leftImg[i].style.transform = `translateX(${horizontalPosition}rem)`;
-    console.log(leftImg[i]);
-  }
+  /*   leftImg = document.getElementsByClassName("leftImgEntry");
+    for (let i = 0; i < leftImg.length; i++) {
+      leftImg[i].style.transform = `translateX(${horizontalPosition}rem)`;
+    } */
 
+
+  document.body.style.setProperty("--scroll", window.scrollY / (document.body.offsetHeight - window.innerHeight));
 
 });
 
@@ -117,6 +120,13 @@ window.addEventListener("scroll", reveal);
 
 
  */
+
+
+
+
+
+
+
 
 
 /* ---------------------------------------------------------- */
