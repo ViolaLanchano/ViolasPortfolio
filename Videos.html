@@ -29,6 +29,11 @@
 
     <!-- java script -->
     <script src="./JavaScript/mainJs.js"></script>
+
+    <!-- AOS library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body>
@@ -58,13 +63,19 @@
     <header class="container-fluid pages blackBackground pt-md-0 pb-5 p-5">
         <div class="container">
             <h1 class="text-white text-end"><span>סרטונים</span></h1>
+            <div id="programsIcons" class="revealTextAnimation d-flex gap-2 text-white">
+                <p>Adobe Premiere Pro</p>
+                <p>Adobe After Effects</p>
+                <p>Adobe Illustrator</p>
+            </div>
         </div>
     </header>
 
     <main class="pt-5">
         <section id="videoDontComfortable" class="container">
             <div class="d-flex justify-content-center align-items-center p-2 row reveal">
-                <div class="col-md-6 col-12 mb-3">
+                <div class="col-md-6 col-12 mb-3" data-aos="fade-left" data-aos-duration="1500"
+                data-aos-delay='300'>
                     <h2 class="mb-2">"לא נעים לי"</h2>
                     <div class="titleDivider"></div>
                     <p class="mt-4">
@@ -74,12 +85,12 @@
                     <p>
                         בדיוק בשביל זה יצרנו את הסרטון ההדרכתי ״לא נעים לי״.
                     </p>
-                    <p class="mt-2">
-                        הפרויקט כלל כתיבת תסריט, צילום ועריכה,
-                        ופותח בסביבת Adobe Premiere. בנוסף, השתמשנו גם בתוכנות Adobe Illustrator ו- Adobe After Effects.
+                    <p>
+                        הפרויקט כלל כתיבת תסריט, צילום ועריכה.
                     </p>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12" data-aos="fade-right" data-aos-duration="1500"
+                data-aos-delay='300'>
                     <iframe class="mt-0" src="https://www.youtube.com/embed/0FlcrsChfME" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -90,7 +101,8 @@
 
 
 
-        <section class="mt-5 pb-5">
+        <section class="mt-5 pt-5 pb-5" data-aos="fade-up" data-aos-duration="1500"
+        data-aos-delay='300'>
             <div class="container">
                 <h2 class="pt-4">סרטונים מתוך הפרויקט "ספראלנד"</h2>
                 <p id="h2Link" class="text-center"> <a href="./SafralandWebApp.html">(לצפייה
@@ -104,15 +116,18 @@
                     מטרת הסרטונים הינה הכרת המתחים הרפואיים והפחתת תחושת החרדה בקרב הילדים המאושפזים, מזומנים לצפות
                     :)
                 </p>
+                <p>
+                    הפרויקט כלל כתיבת תסריט, צילום ועריכה.
+                </p>
 
-                <div id="safralandVideos" class="d-flex justify-content-center row p-2 mt-4">
+                <div id="safralandVideos" class="d-flex justify-content-center row mt-3">
                     <div class="col-12 col-md-6">
                         <iframe src="https://player.vimeo.com/video/831116742?h=8b8f4870ec" width="640" height="564"
                             frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
                         </iframe>
                         <p class="text-center">סרטון להכרת מכון הרנטגן</p>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 mt-4 mt-md-0">
                         <iframe src="https://player.vimeo.com/video/831116782?h=60f38e36c5" width="640" height="564"
                             frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
                         </iframe>
