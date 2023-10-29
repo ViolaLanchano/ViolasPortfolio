@@ -1,6 +1,19 @@
-<svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M53.8295 52.3141H7.81497C4.72259 52.3141 2.125 49.8939 2.125 46.973V15.0931C2.125 12.1722 4.68136 9.75195 7.81497 9.75195H53.8295C56.9219 9.75195 59.5195 12.1722 59.5195 15.0931V47.0147C59.5195 49.9357 56.9631 52.3559 53.8295 52.3559V52.3141Z" fill="#EBD1FF"/>
-<path d="M48.2609 18.8496L30.8199 36.5004L13.3789 18.8496" stroke="#464242" stroke-width="1.24552" stroke-miterlimit="10" stroke-linecap="round"/>
-<path d="M24.6833 30.6992L12.8086 43.0089" stroke="#464242" stroke-width="1.24552" stroke-miterlimit="10" stroke-linecap="round"/>
-<path d="M36.9688 30.6992L48.8435 43.0089" stroke="#464242" stroke-width="1.24552" stroke-miterlimit="10" stroke-linecap="round"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.8.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 62 62" style="enable-background:new 0 0 62 62;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#F6F6F6;}
+	.st2{fill:none;stroke:#464242;stroke-width:1.2444;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M37.6,30.5l11.1-11.2c0.2-0.2,0.2-0.6,0-0.9c-0.2-0.2-0.6-0.2-0.9,0l-17,17.2l-17-17.2c-0.2-0.2-0.6-0.2-0.9,0
+	c-0.2,0.2-0.2,0.6,0,0.9L24,30.5l0.2-0.2c0.2-0.2,0.6-0.3,0.9,0c0.2,0.2,0.3,0.6,0,0.9l-0.2,0.3l5.5,5.6c0.1,0.1,0.3,0.2,0.4,0.2
+	s0.3-0.1,0.4-0.2l5.5-5.6l11.6,12.1c0.1,0.1,0.3,0.2,0.4,0.2c0.2,0,0.3-0.1,0.4-0.2c0.2-0.2,0.3-0.6,0-0.9L37.6,30.5z"/>
+<path class="st1" d="M53.8,9.8h-46c-3.1,0-5.7,2.4-5.7,5.3V47c0,2.9,2.6,5.3,5.7,5.3h46v0c3.1,0,5.7-2.4,5.7-5.3V15.1
+	C59.5,12.2,56.9,9.8,53.8,9.8z M49.3,43.5c-0.1,0.1-0.3,0.2-0.4,0.2c-0.2,0-0.3-0.1-0.4-0.2L36.8,31.4l-5.5,5.6
+	c-0.1,0.1-0.3,0.2-0.4,0.2s-0.3-0.1-0.4-0.2l-5.5-5.6L13.3,43.4c-0.1,0.1-0.3,0.2-0.4,0.2c-0.2,0-0.3-0.1-0.4-0.2
+	c-0.2-0.2-0.3-0.6,0-0.9L24,30.5L12.9,19.3c-0.2-0.2-0.2-0.6,0-0.9c0.2-0.2,0.6-0.2,0.9,0l17,17.2l17-17.2c0.2-0.2,0.6-0.2,0.9,0
+	c0.2,0.2,0.2,0.6,0,0.9L37.6,30.5l11.7,12.1C49.5,42.8,49.5,43.2,49.3,43.5z"/>
+<path class="st2" d="M30.8,36.5"/>
 </svg>
