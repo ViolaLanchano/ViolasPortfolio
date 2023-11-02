@@ -86,6 +86,7 @@ iframe {
 main {
   background-color: #f6f6f6;
   background-image: url('../Images/texturedBackgroundWhite.jpeg');
+  background-attachment: fixed;
 }
 
 a {
@@ -108,21 +109,22 @@ img {
 
 footer p {
   font-size: 0.7rem;
-  background-color: white;
 }
 
 .lightBackground {
   background-color: #fdfdfd;
-  border: 1px solid #7f7d7d91;
+  /* border: 1px solid #7f7d7d91; */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem;
   border-radius: 1rem;
 }
 
 .blackBackground {
   background-color: #1F1F1F;
   background-image: url('../Images/texturedBackgroundBlack.jpeg');
-/*   background-size: cover;
+  /*   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply; */
+  background-attachment: fixed;
 }
 
 .englishFont {
@@ -220,6 +222,11 @@ footer p {
 .modal-header {
   padding: 0;
   border-bottom: unset;
+}
+
+.modal-content {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .modal-dialog {
@@ -321,7 +328,7 @@ footer p {
 .nav-link.active,
 .nav-link:focus,
 .nav-link:hover {
-  color: #363F52;
+  color: #FAFAFA;
 }
 
 .navbar-light .navbar-brand {
@@ -374,6 +381,18 @@ footer p {
 
 
 /* תפריט המבורגר */
+
+
+#homePageNav .bar {
+  background-color: #363F52;
+}
+
+
+
+#homePageNav .hamburger.active .bar {
+  background-color: white;
+}
+
 .bar {
   display: block;
   width: 25px;
@@ -396,7 +415,7 @@ footer p {
   font-size: 1.8rem;
   transition: 0.3s;
   box-shadow: 0 10px 27px rgba(0, 0, 0, 0.199);
-  z-index: 1;
+  z-index: 2;
   gap: 2rem;
   text-align: center;
   height: 100%;
@@ -592,7 +611,6 @@ button.primaryBtn:active {
 #contact h2 {
   font-size: 23vw;
   line-height: 9vw;
-
 }
 
 
@@ -697,8 +715,8 @@ button.primaryBtn:active {
 #myPortfolioMiniMoocStorytelling {
   overflow: hidden;
   height: 20rem;
-/*   background-color: #f6f6f6; */
-  background-color: #3b3b3f;
+  /*  background-color: #f6f6f6; */
+  background-color: #2d2d2d;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 0.5rem;
@@ -870,40 +888,50 @@ button.primaryBtn:active {
   margin: 0 auto;
 }
 
-#moreWorks span {
-  font-size: 1.7rem;
-  /* font-weight: 300; */
-  color: white;
-}
-
 .moreWorksLineDiv {
   width: 80%;
   margin: 0 auto;
+  border-bottom: 1px solid;
+  color: white;
+  transition: all 0.2s ease-in-out;
 }
+
+.moreWorksLineDiv:hover {
+  transform: translateX(-1rem);
+  transition: all 0.2s ease-in-out;
+}
+
+
+.moreWorksLineDiv span {
+  font-size: 1.7rem;
+  font-weight: 300;
+  color: white;
+}
+
+.moreWorksLineDiv:hover span {
+  font-weight: 500;
+}
+
 
 .circleArrow {
   width: 3rem;
   margin: 0 auto;
   fill: #272727;
-}
-
-.circleArrow circle:hover {
-  transform-origin: 50% 50% 0px;
   transition: ease-out 0.3s;
-  box-shadow: inset 0 -100px 0 0 #725AC1;
 }
 
-.circleArrow:hover {
+.moreWorksLineDiv:hover .circleArrow {
   transform: rotate(-45deg);
   transition: ease-out 0.3s;
 }
+
+
 
 
 /*--------- יצירת קשר ---------*/
 
 #contact {
   z-index: 0;
-  /*   height: 0vh; */
 }
 
 a#contactLink:hover {
@@ -1470,6 +1498,11 @@ a#contactLink:hover img {
     font-size: 1.1rem;
   }
 
+  .modal-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
   .navbar-brand {
     display: flex;
   }
@@ -1571,6 +1604,14 @@ a#contactLink:hover img {
 
   iframe {
     height: 11rem;
+  }
+
+  .navbar-light,
+  .nav-link,
+  .nav-link.active,
+  .nav-link:focus,
+  .nav-link:hover {
+    color: #363F52;
   }
 
   .modal-dialog {
