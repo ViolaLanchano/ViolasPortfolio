@@ -1,3 +1,33 @@
+/* The MIT License (MIT)
+
+Copyright (c) 2023 Viola Eden Lanchano
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+ */
+
+/*!
+  * Bootstrap v5.1.0 (https://getbootstrap.com/)
+  * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  */
+
 window.addEventListener("DOMContentLoaded", function () {
   AOS.init();
 
@@ -22,119 +52,10 @@ window.addEventListener("DOMContentLoaded", function () {
 })
 
 
-let scrollValue = 0;
-let maxHorizontalOffset = 2; // Adjust this value as needed
-
-/* תנאי גלילה */
-window.addEventListener('scroll', () => {
-
-  let scroll = $(window).scrollTop();
-  const newScrollValue = window.scrollY;
-  const scrollDiff = newScrollValue - scrollValue;
-
-  /* תמונה פתיח */
-  /*   let homePageHeader = document.getElementById('homePageHeader');
-    if (homePageHeader != null) {
-      homePageHeader.style.transform = "scale(" + (100 - scroll / 100) / 100 + ")";
-      homePageHeader.style.opacity = Math.max(0, Math.min(1, -scroll / 400 + 2));
-    }
-   */
-  let imgHeaderPages = document.getElementById('imgHeaderPages');
-  if (imgHeaderPages != null) {
-    imgHeaderPages.style.transform = "translate3d(0, +" + scroll / 100 + "%, 0) scale(" +
-      (100 - scroll / 100) / 100 + ")"
-  }
-
-
-  /* כניסה של תמונה משמאל */
-  /* leftImg = document.getElementsByClassName("leftImgEntry");
-  for (let i = 0; i < leftImg.length; i++) {
-    leftImg[i].style.transform = `translateX(-${scrollDiff}px)`;
-    console.log(leftImg[i])
-
-  }
-  scrollValue = newScrollValue;
-
-
- */
-
-
-  const verticalScroll = window.scrollY;
-
-  // Calculate the horizontal position based on the scroll position
-  const horizontalPosition = (verticalScroll / window.innerHeight) * maxHorizontalOffset;
-
-  // Apply the horizontal position to the image
-  /*   leftImg = document.getElementsByClassName("leftImgEntry");
-    for (let i = 0; i < leftImg.length; i++) {
-      leftImg[i].style.transform = `translateX(${horizontalPosition}rem)`;
-    } */
-
-
-  document.body.style.setProperty("--scroll", window.scrollY / (document.body.offsetHeight - window.innerHeight));
-
-});
-
-
-
-/* $(window).on('load', () => {
-  reveal();
-  let section = document.querySelectorAll('section');
-  let menu = document.querySelectorAll('nav a');
-  window.onscroll = () => {
-    section.forEach(i => {
-      let top = window.scrollY;
-      let offset = i.offsetTop - 150;
-      let height = i.offsetHeight;
-      let id = i.getAttribute('id');
-
-      if (top >= offset && top < offset + height) {
-        menu.forEach(link => {
-          link.classList.remove('active');
-          document.querySelector('nav a[href*=' + id + ']').classList.add('active');
-        });
-      }
-    });
-  };
-}) */
-
-
-
-/* function reveal() {
-  let reveals = document.querySelectorAll(".animate");
-
-  for (let i = 0; i < reveals.length; i++) {
-    let windowHeight = window.innerHeight;
-    let elementTop = reveals[i].getBoundingClientRect().top;
-    let elementVisible = 150;
-
-    if (elementTop < windowHeight - elementVisible) {
-      reveals[i].classList.add("active");
-    } else {
-      reveals[i].classList.remove("active");
-    }
-  }
-}
-
-window.addEventListener("scroll", reveal);
-
-
- */
-
-
-
-
-
-
-
-
 
 /* ---------------------------------------------------------- */
 /* -------------- עמוד איורים ואיורים דיגיטליים ------------- */
 /* ---------------------------------------------------------- */
-
-
-
 
 
 function activeImg(slide) {
