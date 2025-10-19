@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="utf-8" />
+    <title>ויולה עדן לנצ׳אנו - איורים</title>
+    <meta name="description" content="תיק עבודות של ויולה עדן לנצ׳אנו" />
+    <meta name="keywords" content="תיק עבודות" />
+    <meta name="author" content="ויולה עדן לנצ׳אנו - עיצובים גרפיים" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./Icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Icons/favicon-16x16.png">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="./Styles/myStyle.css">
+
+    <!-- java script -->
+    <script src="./JavaScript/mainJs.js"></script>
+
+    <!-- AOS library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <nav id="top" class="navbar navbar-light blackBackground p-2">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="./HomePage.html">ויולה עדן לנצ׳אנו</a>
+            <div class="navLinks">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./HomePage.html#homePageHeader">קצת עליי</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./HomePage.html#myPortfolio">התוצרים שלי</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./HomePage.html#footerHomePage">יצירת קשר</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="hamburger pe-4 pt-3">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+
+    <header class="container-fluid pages moreWorksPagesTitles blackBackground pt-md-0 pb-5 p-5">
+        <div class="container">
+            <h1 class="text-white text-end"><span>עיצובים גרפיים</span></h1>
+            <!--          <h2 class="revealTextAnimation mb-2 text-end text-white">הכירו את אחת האהבות הגדולות שלי - ציור</h2>
+ -->
+        </div>
+    </header>
+
+    <main class="pt-5 pb-4">
+        <section id="GraphicDesigns">
+            <div class="d-flex justify-content-center row p-0 gap-1">
+                <div class="col-5 col-lg-5 gallery" data-bs-toggle="modal" data-bs-target="#GraphicDesignsModal"
+                    onclick="activeImg('slide1')">
+                    <div class="overlayOnImg"></div>
+                    <img src="./Images/GrapicDesign/YotzeMinHaclalit_ForSpotify.png"
+                        alt="קאבר לפודקאסט ״יוצא מן הכללית״">
+                    <p class="textOnImg">קאבר לפודקאסט ״יוצא מן הכללית״</p>
+                </div>
+                <div class="col-5 col-lg-3 gallery" data-bs-toggle="modal" data-bs-target="#GraphicDesignsModal"
+                    onclick="activeImg('slide2')">
+                    <div class="overlayOnImg"></div>
+                    <img src="./Images/GrapicDesign/YotzeMinHaclalit_ForWhatsapp.png" alt="הפצה ל״וואטסאפ״">
+                    <p class="textOnImg">הפצה ל״וואטסאפ״</p>
+                </div>
+
+                <div class="col-5 col-lg-4 gallery" data-bs-toggle="modal" data-bs-target="#GraphicDesignsModal"
+                    onclick="activeImg('slide3')">
+                    <div class="overlayOnImg"></div>
+                    <img src="./Images/GrapicDesign/YotzeMinHaclalit_ForEmail.png"
+                        alt="״באנר כולל ברקוד לפודקאסט יוצא מן הכללית">
+                    <p class="textOnImg">באנר לפודקאסט ״יוצא מן הכללית״</p>
+                </div>
+                <div class="col-5 col-lg-4 gallery" data-bs-toggle="modal" data-bs-target="#GraphicDesignsModal"
+                    onclick="activeImg('slide4')">
+                    <div class="overlayOnImg"></div>
+                    <img src="./Images/GrapicDesign/QRCodeQRCode_PorsimCnafaim_Designed_Small.png"
+                        alt="באנר כולל ברקוד לפודקאסט פורשים כנפיים">
+                    <p class="textOnImg">באנר לפודקאסט ״פורשים כנפיים״</p>
+                </div>
+
+                <div class="col-5 col-lg-4 gallery" data-bs-toggle="modal" data-bs-target="#GraphicDesignsModal"
+                    onclick="activeImg('slide5')">
+                    <div class="overlayOnImg"></div>
+                    <img src="./Images/GrapicDesign/BanerPorsimCnafaim.png" alt="״קאבר לפודקאסט ״פורשים כנפיים">
+                    <p class="textOnImg">קאבר לפודקאסט ״פורשים כנפיים״</p>
+                </div>
+                <div class="col-5 col-lg-4 gallery" data-bs-toggle="modal" data-bs-target="#GraphicDesignsModal"
+                    onclick="activeImg('slide6')">
+                    <div class="overlayOnImg"></div>
+                    <img src="./Images/GrapicDesign/BanerEpisode1_IrisMichal.png"
+                        alt="קאבר לספוטיפיי-לפרק הראשון של הפןדקאסט ״פורשים כנפיים״">
+                    <p class="textOnImg">קאבר לפרק הראשון של הפודקאסט ״פורשים כנפיים״</p>
+                </div>
+
+                <div class="col-5 col-lg-4 gallery" data-bs-toggle="modal" data-bs-target="#GraphicDesignsModal"
+                    onclick="activeImg('slide7')">
+                    <div class="overlayOnImg"></div>
+                    <img src="./Images/GrapicDesign/NewYear'sGreetingsEnwizeCompany.png"
+                        alt="ברכת ראש השנה לחברת ״Enwize״">
+                    <p class="textOnImg">ברכת ראש השנה לחברת ״enwize״</p>
+                </div>
+                <div class="col-5 col-lg-4 gallery" data-bs-toggle="modal" data-bs-target="#GraphicDesignsModal"
+                    onclick="activeImg('slide8')">
+                    <div class="overlayOnImg"></div>
+                    <img src="./Images/GrapicDesign/NewYear'sgGeetingsBarnoamCompany.png.png"
+                        alt="ברכת ראש השנה לחברת ברנועם">
+                    <p class="textOnImg">ברכת ראש השנה לחברת ״ברנועם"</p>
+                </div>
+                <div class="col-5 col-lg-4 gallery" data-bs-toggle="modal" data-bs-target="#GraphicDesignsModal"
+                    onclick="activeImg('slide9')">
+                    <div class="overlayOnImg"></div>
+                    <img class="button" src="./Images/GrapicDesign/MeetTheWorkerEnwize.png"
+                        alt="מודעת היכרות עם עובד חדש לחברת ״Enwize״">
+                    <p class="textOnImg">מודעת היכרות עם עובד חדש לחברת ״Enwize״"</p>
+                </div>
+                <!-- 
+                <div class="col-5 col-lg-4 gallery" data-bs-toggle="modal" data-bs-target="#GraphicDesignsModal"
+                    onclick="activeImg('slide10')">
+                    <div class="overlayOnImg"></div>
+                    <img src="./Images/Drawing/rose.png" alt="קאבר לפודקאסט ״המסע אחרי הטראומה״">
+                    <p class="textOnImg">קאבר לפודקאסט ״המסע אחרי הטראומה״</p>
+                </div>
+                
+                <div class="col-5 col-lg-4 gallery" data-bs-toggle="modal" data-bs-target="#GraphicDesignsModal"
+                    onclick="activeImg('slide11')">
+                    <div class="overlayOnImg"></div>
+                    <img src="./Images/Drawing/rose.png" alt="קאבר לפודקאסט ״מרחב העיסוק בריפוי בעיסוק">
+                    <p class="textOnImg">קאבר לפודקאסט ״מרחב העיסוק בריפוי בעיסוק״</p>
+                </div>
+
+                 <div class="col-5 col-lg-4 gallery" data-bs-toggle="modal" data-bs-target="#GraphicDesignsModal"
+                    onclick="activeImg('slide12')">
+                    <div class="overlayOnImg"></div>
+                    <img src="./Images/Drawing/rose.png" alt="קאבר לפרק הראשון של הפודקאסט ״מרחב העיסוק בריפוי בעיסוק">
+                    <p class="textOnImg">קאבר לפרק הראשון של הפודקאסט ״מרחב העיסוק בריפוי בעיסוק״</p>
+                </div>
+                 -->
+                <div class="col-5 col-lg-4 gallery" data-bs-toggle="modal" data-bs-target="#GraphicDesignsModal"
+                    onclick="activeImg('slide13')">
+                    <div class="overlayOnImg"></div>
+                    <img src="./Images/GrapicDesign/Directions.png" alt="דף עזר-דרכי הגעה למרכז הדרכה ארצי">
+                    <p class="textOnImg">דף עזר - דרכי הגעה למרכז הדרכה ארצי של כללית</p>
+                </div>
+
+                <div class="col-5 col-lg-4 gallery" data-bs-toggle="modal" data-bs-target="#GraphicDesignsModal"
+                    onclick="activeImg('slide14')">
+                    <div class="overlayOnImg"></div>
+                    <img src="./Images/GrapicDesign/SatellietersDataPoster.png" alt="פוסטר בנושא לווינים">
+                    <p class="textOnImg">פוסטר בנושא לווינים</p>
+                </div>
+            </div>
+
+
+            <!-- פופ-אפ קרוסלת תמונות -->
+            <div class="modal fade" id="GraphicDesignsModal" aria-labelledby="GraphicDesignsModalLabel"
+                aria-hidden="true" data-bs-backdrop="static">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="closeBtn position-absolute" data-bs-dismiss="modal"
+                                aria-label="סגור חלון פופ-אפ">
+                                <img src="./Images/closeBtn.svg" alt="סגור חלון פופ-אפ">
+                            </button>
+                        </div>
+                        <div class="modal-body p-1">
+                            <!-- קרוסלה -->
+                            <div id="GraphicDesignsModalCarousel" class="carousel slide col-12" data-bs-ride="carousel"
+                                data-bs-interval="false" data-bs-touch="true" direction="right">
+                                <div class="carousel-inner">
+                                    <div id="slide1" class="carousel-item">
+                                        <img src="./Images/GrapicDesign/YotzeMinHaclalit_ForSpotify.png"
+                                            class="d-block w-100" alt="קאבר לפודקאסט ״יוצא מן הכללית״">
+                                    </div>
+                                    <div id="slide2" class="carousel-item">
+                                        <img src="./Images/GrapicDesign/YotzeMinHaclalit_ForWhatsapp.png"
+                                            class="d-block w-100" alt="הפצה ל״וואטסאפ״">
+                                    </div>
+                                    <div id="slide3" class="carousel-item">
+                                        <img src="./Images/GrapicDesign/YotzeMinHaclalit_ForEmail.png"
+                                            class="d-block w-100" alt="״באנר כולל ברקוד לפודקאסט יוצא מן הכללית">
+                                    </div>
+                                    <div id="slide4" class="carousel-item">
+                                        <img src="./Images/GrapicDesign/QRCodeQRCode_PorsimCnafaim_Designed_Small.png"
+                                            class="d-block w-100" alt="״באנר כולל ברקוד לפודקאסט ״פורשים כנפיים">
+                                    </div>
+                                    <div id="slide5" class="carousel-item">
+                                        <img src="./Images/GrapicDesign/BanerPorsimCnafaim.png" class="d-block w-100"
+                                            alt="״קאבר לפודקסאט ״פורשים כנפיים">
+                                    </div>
+                                    <div id="slide6" class="carousel-item">
+                                        <img src="./Images/GrapicDesign/BanerEpisode1_IrisMichal.png"
+                                            class="d-block w-100"
+                                            alt="קאבר לספוטיפיי-לפרק הראשון של הפודקאסט ״פורשים כנפיים״">
+                                    </div>
+
+                                    <div id="slide7" class="carousel-item">
+                                        <img src="./Images/GrapicDesign/NewYear'sGreetingsEnwizeCompany.png"
+                                            class="d-block w-100" alt="ברכת ראש השנה לחברת ״Enwize״">
+                                    </div>
+                                    <div id="slide8" class="carousel-item">
+                                        <img src="./Images/GrapicDesign/NewYear'sgGeetingsBarnoamCompany.png.png"
+                                            class="d-block w-100" alt="ברכת ראש השנה לחברת ברנועם">
+                                    </div>
+                                    <div id="slide9" class="carousel-item">
+                                        <img src="./Images/GrapicDesign/MeetTheWorkerEnwize.png" class="d-block w-100"
+                                            alt="מודעת היכרות עם עובד חדש לחברת ״Enwize״">
+                                    </div>
+                                    <!--   <div id="slide10" class="carousel-item">
+                                        <img src="./Images/GrapicDesign/MeetTheWorkerEnwize.png" class="d-block w-100"
+                                            alt="קאבר לפודקאסט ״המסע אחרי הטראומה״">
+                                    </div>
+                                      <div id="slide11" class="carousel-item">
+                                        <img src="./Images/GrapicDesign/MeetTheWorkerEnwize.png" class="d-block w-100"
+                                            alt="קאבר לפודקאסט ״מרחב העיסוק בריפוי בעיסוק״">
+                                    </div>
+                                      <div id="slide12" class="carousel-item">
+                                        <img src="./Images/GrapicDesign/MeetTheWorkerEnwize.png" class="d-block w-100"
+                                            alt="קאבר לפרק הראשון של הפודקאסט ״מרחב העיסוק בריפוי בעיסוק״<">
+                                    </div> -->
+                                    <div id="slide13" class="carousel-item">
+                                        <img src="./Images/GrapicDesign/Directions.png" class="d-block w-100"
+                                            alt="דף עזר-דרכי הגעה למרכז הדרכה ארצי">
+                                    </div>
+                                    <div id="slide14" class="carousel-item">
+                                        <img src="./Images/GrapicDesign/SatellietersDataPoster.png"
+                                            class="d-block w-100" alt="פוסטר בנושא לווינים">
+                                    </div>
+                                </div>
+
+
+                                <button id="prevBtnModal" class="carousel-control-next" type="button"
+                                    data-bs-target="#GraphicDesignsModalCarousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+
+                                <button id="nextBtnModal" class="carousel-control-prev" type="button"
+                                    data-bs-target="#GraphicDesignsModalCarousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
