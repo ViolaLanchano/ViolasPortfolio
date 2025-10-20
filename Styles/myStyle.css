@@ -746,7 +746,8 @@ button.primaryBtn:active {
   transition: background .3s ease-out;
   padding: 2rem;
   background-image: url(../Images/GrapicDesign/GraphicDesigns.png);
-   background-size: 40rem;
+  background-size: 40rem;
+  height: 14rem;
   /*   width: 60%; */
 }
 
@@ -1708,7 +1709,6 @@ a#contactLink:hover img {
   #miniMoocStorytellingIcons img {
     width: 12vw;
   }
-
 }
 
 
